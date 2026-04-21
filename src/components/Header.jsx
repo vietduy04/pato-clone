@@ -103,7 +103,7 @@ export default function Header() {
                   <div className="header-logo">
                     <Link to="/">
                       <img
-                        src="/images/logo.png"
+                        src="//theme.hstatic.net/1000275435/1000883829/14/logo.png"
                         alt="PATO - Kênh thông tin và đặt bàn Nhà hàng"
                       />
                     </Link>
