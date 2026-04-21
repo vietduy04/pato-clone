@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
+import posthog from 'posthog-js'
 import useStore from '../store'
 import './ProductPage.css'
 
@@ -120,7 +121,11 @@ export default function ProductPage() {
             )}
 
             <div className="booking-cta">
-              <a href="tel:19002280" className="btn-booking-main">
+              <a
+                href="tel:19002280"
+                className="btn-booking-main"
+                onClick={() => posthog.capture('booking_cta_click', { restaurant_handle: r.handle })}
+              >
                 Đặt bàn ngay — 1900.2280
               </a>
             </div>

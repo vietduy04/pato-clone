@@ -1,5 +1,6 @@
-import { useMemo } from 'react'
+import { useMemo, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
+import posthog from 'posthog-js'
 import RestaurantCard from '../components/RestaurantCard'
 import useStore from '../store'
 import './SearchPage.css'
@@ -18,6 +19,11 @@ export default function SearchPage() {
       r.cuisine_all?.some(c => c.toLowerCase().includes(lower))
     )
   }, [q, restaurants])
+
+  useEffect(() => {
+    if (!loaded || !q.trim()) return
+    posthog.capture('search', { query: q, result_count: results.length })
+  }, [q, loaded, results.length])
 
   return (
     <div className="search-page">

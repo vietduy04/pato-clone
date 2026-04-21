@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react'
 import { useSearchParams } from 'react-router-dom'
+import posthog from 'posthog-js'
 import RestaurantCard from '../components/RestaurantCard'
 import useStore from '../store'
 import config from '../data/config.json'
@@ -20,6 +21,7 @@ export default function CollectionsPage() {
     if (key === 'cuisine') setCuisine(val)
     if (key === 'service') setService(val)
     if (key === 'price') setPrice(val)
+    if (val) posthog.capture('filter_applied', { filter_type: key, value: val })
   }
 
   const filtered = useMemo(() => {

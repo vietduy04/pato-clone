@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import posthog from 'posthog-js'
 
 const PRICE_SYMBOLS = { '1': '$', '2': '$$', '3': '$$$', '4': '$$$$', '5': '$$$$$' }
 
@@ -47,7 +48,12 @@ export default function RestaurantCard({ restaurant }) {
         </div>
       </div>
       <div className="buy-now-product">
-        <Link className="btn-booking" to={`/products/${r.handle}`} target="_blank">Đặt chỗ ngay</Link>
+        <Link
+          className="btn-booking"
+          to={`/products/${r.handle}`}
+          target="_blank"
+          onClick={() => posthog.capture('card_cta_click', { restaurant_handle: r.handle })}
+        >Đặt chỗ ngay</Link>
       </div>
     </div>
   )
