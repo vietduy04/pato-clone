@@ -9,9 +9,10 @@ const useStore = create((set, get) => ({
   load: async () => {
     if (get().loaded || get().loading) return
     set({ loading: true })
+    const base = import.meta.env.BASE_URL
     const [restRes, locRes] = await Promise.all([
-      fetch('/data/all_restaurants.json'),
-      fetch('/data/locations.json'),
+      fetch(`${base}data/all_restaurants.json`),
+      fetch(`${base}data/locations.json`),
     ])
     const [restaurants, locations] = await Promise.all([
       restRes.json(),
