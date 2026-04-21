@@ -1,0 +1,9 @@
+[
+  {
+    "handle": "quan-nuong",
+    "title": "Quán Nướng Ngon",
+    "description": "Những quán nướng được yêu thích nhất",
+    "image": "https://cdn.hstatic.net/...",
+    "restaurant_handles": ["pho-bo-hang-dao", "quan-nuong-kim-son", "..."]
+  }
+]
