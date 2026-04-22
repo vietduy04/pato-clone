@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { useSearchParams, useParams } from 'react-router-dom'
 import posthog from 'posthog-js'
 import RestaurantCard from '../components/RestaurantCard'
 import useStore from '../store'
@@ -7,11 +7,33 @@ import config from '../data/config.json'
 import './CollectionsPage.css'
 
 export default function CollectionsPage() {
-  const { restaurants, loaded } = useStore()
+  const { restaurants, collections, loaded } = useStore()
+  const { handle } = useParams()
   const [searchParams, setSearchParams] = useSearchParams()
   const [cuisine, setCuisine] = useState(searchParams.get('cuisine') || '')
   const [service, setService] = useState(searchParams.get('service') || '')
   const [price, setPrice] = useState(searchParams.get('price') || '')
+
+  // Find the matching collection (if a handle is in the URL)
+  const collection = useMemo(
+    () => (handle ? collections.find(c => c.handle === handle) : null),
+    [collections, handle]
+  )
+
+  // Pre-filter to collection members, then apply sidebar filters on top
+  const filtered = useMemo(() => {
+    const collectionSet = collection
+      ? new Set(collection.restaurant_handles)
+      : null
+
+    return restaurants.filter(r => {
+      if (collectionSet && !collectionSet.has(r.handle)) return false
+      if (cuisine && !r.cuisine_all?.includes(cuisine)) return false
+      if (service && r.service_type !== service) return false
+      if (price && r.price_range !== price) return false
+      return true
+    })
+  }, [restaurants, collection, cuisine, service, price])
 
   function applyFilter(key, val) {
     const p = new URLSearchParams(searchParams)
@@ -21,20 +43,20 @@ export default function CollectionsPage() {
     if (key === 'cuisine') setCuisine(val)
     if (key === 'service') setService(val)
     if (key === 'price') setPrice(val)
-    if (val) posthog.capture('filter_applied', { filter_type: key, value: val })
+    if (val) posthog.capture('filter_applied', { filter_type: key, value: val, collection: handle || null })
   }
 
-  const filtered = useMemo(() => {
-    return restaurants.filter(r => {
-      if (cuisine && !r.cuisine_all?.includes(cuisine)) return false
-      if (service && r.service_type !== service) return false
-      if (price && r.price_range !== price) return false
-      return true
-    })
-  }, [restaurants, cuisine, service, price])
+  const pageTitle = collection ? collection.title : 'Nhà hàng'
 
   return (
     <div className="collections-page">
+      {collection && (
+        <div className="collection-banner">
+          <div className="wrapper">
+            <h1 className="collection-banner-title">{collection.title}</h1>
+          </div>
+        </div>
+      )}
       <div className="wrapper">
         <div className="collections-inner">
           <aside className="collections-sidebar">
@@ -80,12 +102,16 @@ export default function CollectionsPage() {
           </aside>
           <div className="collections-content">
             <div className="collections-header">
-              <h1>Nhà hàng</h1>
+              <h1>{!collection ? pageTitle : ''}</h1>
               <span className="result-count">{loaded ? `${filtered.length} kết quả` : 'Đang tải...'}</span>
             </div>
             {!loaded ? (
               <div className="collections-grid">
                 {Array.from({ length: 9 }).map((_, i) => <div key={i} className="card-skeleton" />)}
+              </div>
+            ) : handle && !collection ? (
+              <div className="collection-not-found">
+                <p>Không tìm thấy bộ sưu tập này.</p>
               </div>
             ) : (
               <div className="collections-grid">
