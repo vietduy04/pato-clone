@@ -1,15 +1,21 @@
 import { useState, useRef, useCallback } from 'react'
 import './Carousel.css'
 
-export default function Carousel({ items, renderItem, itemsPerView = 4, gap = 15 }) {
+export default function Carousel({ items, renderItem, itemsPerView = 4, gap = 15, fixedWidth = null }) {
   const [index, setIndex] = useState(0)
   const trackRef = useRef(null)
-  const maxIndex = Math.max(0, items.length - itemsPerView)
+  const maxIndex = Math.max(0, items.length - (fixedWidth ? 1 : itemsPerView))
 
   const prev = useCallback(() => setIndex(i => Math.max(0, i - 1)), [])
   const next = useCallback(() => setIndex(i => Math.min(maxIndex, i + 1)), [maxIndex])
 
-  const itemWidthPct = 100 / itemsPerView
+  const slideStyle = fixedWidth
+    ? { minWidth: `${fixedWidth}px`, maxWidth: `${fixedWidth}px` }
+    : { minWidth: `calc(${100 / itemsPerView}% - ${gap * (itemsPerView - 1) / itemsPerView}px)` }
+
+  const trackTransform = fixedWidth
+    ? `translateX(calc(-${index} * (${fixedWidth}px + ${gap}px)))`
+    : `translateX(calc(-${index * (100 / itemsPerView)}% - ${index * gap}px))`
 
   return (
     <div className="pato-carousel">
@@ -20,13 +26,13 @@ export default function Carousel({ items, renderItem, itemsPerView = 4, gap = 15
         <div
           ref={trackRef}
           className="carousel-track"
-          style={{ transform: `translateX(calc(-${index * itemWidthPct}% - ${index * gap}px))`, gap: `${gap}px` }}
+          style={{ transform: trackTransform, gap: `${gap}px` }}
         >
           {items.map((item, i) => (
             <div
               key={i}
               className="carousel-slide"
-              style={{ minWidth: `calc(${itemWidthPct}% - ${gap * (itemsPerView - 1) / itemsPerView}px)` }}
+              style={slideStyle}
             >
               {renderItem(item, i)}
             </div>

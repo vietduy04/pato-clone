@@ -136,6 +136,24 @@ textarea {
     font-size: 13px;
 }
 
+@media (max-width: 768px) {
+    .section-title.clearfix {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        gap: 4px;
+    }
+    .section-title.clearfix h2 {
+        font-size: 16px;
+        padding-right: 0;
+    }
+    .section-title.clearfix .view_more {
+        position: static;
+        transform: none;
+    }
+}
+
 .clearfix::after {
     content: "";
     display: table;

@@ -1,10 +1,19 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Carousel from "../components/Carousel";
 import RestaurantCard from "../components/RestaurantCard";
 import useStore from "../store";
 import config from "../data/config.json";
 import "./HomePage.css";
+
+const FEATURED_COLLECTION_HANDLES = [
+  "pato-de-xuat-top-nha-hang-tai-ha-noi",
+  "top-nha-hang-duoc-yeu-thich-tai-tp-ho-chi-minh",
+  "kham-pha-tinh-hoa-am-thuc-nhat-ban",
+  "o-day-co-nhau-ngon-thu-ngay",
+  "quay-banh-trung-tam-thuong-mai-voi-top-cac-nha-hang",
+  "tong-hop-nha-hang-mon-viet-nhat-dinh-phai-thu",
+];
 
 const SUGGEST_ITEMS = [
   {
@@ -122,7 +131,7 @@ const LOCATION_ITEMS = [
 
 export default function HomePage() {
   const navigate = useNavigate();
-  const { restaurants, locations, loaded } = useStore();
+  const { restaurants, locations, collections, loaded } = useStore();
   const [province, setProvince] = useState("");
   const [district, setDistrict] = useState("");
   const [priceRange, setPriceRange] = useState("");
@@ -132,7 +141,24 @@ export default function HomePage() {
     ? locations.find((l) => l.province === province)?.districts || []
     : [];
 
-  const featured = restaurants.slice(0, 12);
+  // O(1) restaurant lookup by handle
+  const restaurantByHandle = useMemo(() => {
+    const map = new Map();
+    restaurants.forEach((r) => map.set(r.handle, r));
+    return map;
+  }, [restaurants]);
+
+  // Resolve featured collections → [{handle, title, items:[restaurant,...]}]
+  const featuredCollections = useMemo(() => {
+    return FEATURED_COLLECTION_HANDLES.map((handle) => {
+      const col = collections.find((c) => c.handle === handle);
+      if (!col) return null;
+      const items = col.restaurant_handles
+        .map((h) => restaurantByHandle.get(h))
+        .filter(Boolean);
+      return { handle: col.handle, title: col.title, items };
+    }).filter(Boolean);
+  }, [collections, restaurantByHandle]);
 
   function handleAdvancedSearch(e) {
     e.preventDefault();
@@ -298,34 +324,46 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Featured restaurants */}
-      <section className="home-choose">
-        <div className="wrapper">
-          <div className="inner">
-            <div className="section-title clearfix">
-              <h2>Pato đề xuất Top Nhà hàng tại Hà Nội</h2>
-              <div className="view_more">
-                <Link to="/collections">
-                  <strong>Xem thêm</strong>
-                </Link>
+      {/* Featured restaurants — one carousel per collection */}
+      {!loaded
+        ? FEATURED_COLLECTION_HANDLES.map((handle) => (
+            <section key={handle} className="home-collection-section">
+              <div className="wrapper">
+                <div className="inner">
+                  <div className="section-title clearfix">
+                    <div className="home-collection-skeleton-title" />
+                  </div>
+                  <div className="home-collection-skeleton-row">
+                    {Array.from({ length: 4 }).map((_, i) => (
+                      <div key={i} className="card-skeleton" />
+                    ))}
+                  </div>
+                </div>
               </div>
-            </div>
-            {!loaded ? (
-              <div className="loading-cards">
-                {Array.from({ length: 8 }).map((_, i) => (
-                  <div key={i} className="card-skeleton" />
-                ))}
+            </section>
+          ))
+        : featuredCollections.map((col) => (
+            <section key={col.handle} className="home-collection-section">
+              <div className="wrapper">
+                <div className="inner">
+                  <div className="section-title clearfix">
+                    <h2>{col.title}</h2>
+                    <div className="view_more">
+                      <Link to={`/collections/${col.handle}`}>
+                        <strong>Xem thêm</strong>
+                      </Link>
+                    </div>
+                  </div>
+                  <Carousel
+                    items={col.items}
+                    fixedWidth={300}
+                    gap={20}
+                    renderItem={(r) => <RestaurantCard restaurant={r} />}
+                  />
+                </div>
               </div>
-            ) : (
-              <div className="home-choose-grid">
-                {featured.map((r) => (
-                  <RestaurantCard key={r.handle} restaurant={r} />
-                ))}
-              </div>
-            )}
-          </div>
-        </div>
-      </section>
+            </section>
+          ))}
       {/* Steps */}
       <section id="home-step">
         <div className="wrapper">

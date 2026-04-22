@@ -1,13 +1,12 @@
-import { Link } from 'react-router-dom'
-import posthog from 'posthog-js'
+import { Link } from "react-router-dom";
+import posthog from "posthog-js";
 
-const PRICE_SYMBOLS = { '1': '$', '2': '$$', '3': '$$$', '4': '$$$$', '5': '$$$$$' }
+const PRICE_SYMBOLS = { 1: "$", 2: "$$", 3: "$$$", 4: "$$$$", 5: "$$$$$" };
 
 export default function RestaurantCard({ restaurant }) {
-  const r = restaurant
-  const priceStr = PRICE_SYMBOLS[r.price_range] || ''
-  const priceFull = Object.values(PRICE_SYMBOLS).join('')
-  const priceRest = priceFull.slice(priceStr.length)
+  const r = restaurant;
+  const priceStr = PRICE_SYMBOLS[r.price_range] || "";
+  const priceRest = "$$$$$".slice(priceStr.length);
 
   return (
     <div className="product-item">
@@ -17,44 +16,68 @@ export default function RestaurantCard({ restaurant }) {
         </Link>
         <div className="product-item-info">
           <div className="product-title">
-            <Link to={`/products/${r.handle}`} target="_blank">{r.title}</Link>
+            <Link to={`/products/${r.handle}`} target="_blank">
+              {r.title}
+            </Link>
           </div>
           <div className="tag-location">{r.address}</div>
           <div className="product-detail-type">
             <div className="product-type">
-              {r.cuisine_all?.slice(0, 2).map(c => (
-                <span key={c}><Link to={`/collections?cuisine=${encodeURIComponent(c)}`}>{c}</Link></span>
+              {r.cuisine_all?.slice(0, 2).map((c) => (
+                <span key={c}>
+                  <Link to={`/collections?cuisine=${encodeURIComponent(c)}`}>
+                    {c}
+                  </Link>
+                </span>
               ))}
             </div>
             <div className="product-type-ver2">
               {r.service_type && (
-                <span><Link to={`/collections?service=${encodeURIComponent(r.service_type)}`}>{r.service_type}</Link></span>
+                <span>
+                  <Link
+                    to={`/collections?service=${encodeURIComponent(r.service_type)}`}
+                  >
+                    {r.service_type}
+                  </Link>
+                </span>
               )}
             </div>
           </div>
           <div className="product-price">
             <div className="product-price-content">
-              <strong>{priceStr}</strong><span style={{opacity:0.3}}>{priceRest}</span>
+              <strong>{priceStr}</strong>
+              <span style={{ opacity: 0.3 }}>{priceRest}</span>
             </div>
           </div>
           {r.discount && r.discount_details && (
             <div className="textUudai">{r.discount_details}</div>
           )}
-          {r.status === 'Đã hợp tác' && (
+          {r.status === "Đã hợp tác" && (
             <div className="product-type-2">
-              <span><Link to="/collections/types?q=da-hop-tac" className="custom_tag">Đã hợp tác</Link></span>
+              <span>
+                <Link
+                  to="/collections/types?q=da-hop-tac"
+                  className="custom_tag"
+                >
+                  Đã hợp tác
+                </Link>
+              </span>
             </div>
           )}
         </div>
       </div>
-      <div className="buy-now-product">
+      {/* <div className="buy-now-product">
         <Link
           className="btn-booking"
           to={`/products/${r.handle}`}
           target="_blank"
-          onClick={() => posthog.capture('card_cta_click', { restaurant_handle: r.handle })}
-        >Đặt chỗ ngay</Link>
-      </div>
+          onClick={() =>
+            posthog.capture("card_cta_click", { restaurant_handle: r.handle })
+          }
+        >
+          Đặt chỗ ngay
+        </Link>
+      </div>*/}
     </div>
-  )
+  );
 }

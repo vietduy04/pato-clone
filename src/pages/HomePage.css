@@ -149,21 +149,49 @@
     background: #000;
 }
 
-/* Featured restaurants grid */
-.home-choose-grid {
+/* Featured collection carousel sections */
+.home-collection-section {
+    border-top: 1px solid var(--border);
+}
+
+.home-collection-section .pato-carousel {
+    /* cards in a collection row have a fixed height so the row stays uniform */
+}
+
+.home-collection-section .product-item {
+    height: 100%;
+}
+
+/* Skeleton states */
+.home-collection-skeleton-title {
+    width: 320px;
+    max-width: 80%;
+    height: 24px;
+    background: #e8e8e8;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    animation: skeleton-pulse 1.4s ease-in-out infinite;
+}
+
+.home-collection-skeleton-row {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
+@keyframes skeleton-pulse {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.5; }
+}
+
 @media (max-width: 1200px) {
-    .home-choose-grid {
+    .home-collection-skeleton-row {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (max-width: 768px) {
-    .home-choose-grid {
+    .home-collection-skeleton-row {
         grid-template-columns: repeat(2, 1fr);
         gap: 12px;
     }
@@ -180,8 +208,8 @@
 }
 
 @media (max-width: 480px) {
-    .home-choose-grid {
-        grid-template-columns: 1fr;
+    .home-collection-skeleton-row {
+        grid-template-columns: repeat(2, 1fr);
     }
     .home-location-grid {
         grid-template-columns: repeat(2, 1fr);
