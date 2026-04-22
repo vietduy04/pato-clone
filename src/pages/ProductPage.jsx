@@ -1,6 +1,9 @@
+import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import posthog from 'posthog-js'
 import useStore from '../store'
+import Carousel from '../components/Carousel'
+import RestaurantCard from '../components/RestaurantCard'
 import './ProductPage.css'
 
 const PRICE_LABELS = {
@@ -24,6 +27,17 @@ export default function ProductPage() {
   }
 
   const r = restaurants.find(rest => rest.handle === handle)
+
+  const related = useMemo(() => {
+    if (!r) return []
+    return restaurants.filter(
+      rest =>
+        rest.handle !== r.handle &&
+        rest.province === r.province &&
+        rest.district === r.district &&
+        rest.cuisine_main === r.cuisine_main
+    )
+  }, [restaurants, r])
 
   if (!r) {
     return (
@@ -136,9 +150,29 @@ export default function ProductPage() {
           <div className="product-description">
             <h2>Giới thiệu</h2>
             <div className="description-text">
-              {r.description.split('\n').filter(Boolean).map((line, i) => (
-                <p key={i}>{line}</p>
-              ))}
+              {(() => {
+                const lines = r.description.split('\n').filter(Boolean)
+                const renderInline = (text) => {
+                  const parts = text.split(/\*{2,3}(.+?)\*\*/g)
+                  return parts.map((part, i) => i % 2 === 1 ? <strong key={i}>{part}</strong> : part)
+                }
+                const result = []
+                let i = 0
+                while (i < lines.length) {
+                  if (lines[i].startsWith('- ')) {
+                    const items = []
+                    while (i < lines.length && lines[i].startsWith('- ')) {
+                      items.push(<li key={i}>{renderInline(lines[i].slice(2))}</li>)
+                      i++
+                    }
+                    result.push(<ul key={`ul-${i}`}>{items}</ul>)
+                  } else {
+                    result.push(<p key={i}>{renderInline(lines[i])}</p>)
+                    i++
+                  }
+                }
+                return result
+              })()}
             </div>
           </div>
         )}
@@ -154,6 +188,18 @@ export default function ProductPage() {
               allowFullScreen
               loading="lazy"
               title="Bản đồ"
+            />
+          </div>
+        )}
+
+        {related.length > 0 && (
+          <div className="product-related">
+            <h2>Các địa điểm liên quan</h2>
+            <Carousel
+              items={related}
+              itemsPerView={3}
+              gap={20}
+              renderItem={r => <RestaurantCard restaurant={r} />}
             />
           </div>
         )}

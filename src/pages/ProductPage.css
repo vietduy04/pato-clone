@@ -135,7 +135,31 @@
   margin-bottom: 8px;
 }
 
+.description-text ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 8px;
+}
+
+.description-text ul li {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--text-primary);
+}
+
 .product-map { margin-bottom: 40px; }
+
+.product-related { margin-bottom: 40px; }
+
+.product-related h2 {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--dark);
+  margin-bottom: 16px;
+  border-bottom: 2px solid var(--brand);
+  padding-bottom: 8px;
+}
 
 @media (max-width: 768px) {
   .product-layout { grid-template-columns: 1fr; gap: 20px; }
