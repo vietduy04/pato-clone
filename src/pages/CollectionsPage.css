@@ -1,5 +1,26 @@
 .collections-page {
-  padding: 20px 0 40px;
+  padding: 0 0 40px;
+}
+
+.collection-banner {
+  background: var(--dark);
+  padding: 28px 0;
+  margin-bottom: 4px;
+}
+
+.collection-banner-title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.collection-not-found {
+  padding: 60px 0;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 15px;
 }
 
 .collections-inner {
