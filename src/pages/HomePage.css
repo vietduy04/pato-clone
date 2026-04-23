@@ -10,7 +10,7 @@
 
 .hpromo-item img {
     width: 100%;
-    height: 160px;
+    height: 260px;
     object-fit: cover;
     transition: transform 0.3s ease-out;
     border-radius: 8px;
@@ -180,8 +180,13 @@
 }
 
 @keyframes skeleton-pulse {
-    0%, 100% { opacity: 1; }
-    50%       { opacity: 0.5; }
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
 }
 
 @media (max-width: 1200px) {
