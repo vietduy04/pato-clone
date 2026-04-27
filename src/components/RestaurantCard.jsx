@@ -52,16 +52,9 @@ export default function RestaurantCard({ restaurant }) {
           {r.discount && r.discount_details && (
             <div className="textUudai">{r.discount_details}</div>
           )}
-          {r.status === "Đã hợp tác" && (
+          {r.status && (
             <div className="product-type-2">
-              <span>
-                <Link
-                  to="/collections/types?q=da-hop-tac"
-                  className="custom_tag"
-                >
-                  Đã hợp tác
-                </Link>
-              </span>
+              <span className="custom_tag status-tag">{r.status}</span>
             </div>
           )}
         </div>

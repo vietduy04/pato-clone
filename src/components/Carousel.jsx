@@ -1,13 +1,21 @@
-import { useState, useRef, useCallback } from 'react'
+import { useState, useRef, useCallback, useEffect } from 'react'
 import './Carousel.css'
 
-export default function Carousel({ items, renderItem, itemsPerView = 4, gap = 15, fixedWidth = null }) {
+export default function Carousel({ items, renderItem, itemsPerView = 4, gap = 15, fixedWidth = null, autoPlay = false, autoPlayInterval = 6000 }) {
   const [index, setIndex] = useState(0)
   const trackRef = useRef(null)
   const maxIndex = Math.max(0, items.length - (fixedWidth ? 1 : itemsPerView))
 
   const prev = useCallback(() => setIndex(i => Math.max(0, i - 1)), [])
   const next = useCallback(() => setIndex(i => Math.min(maxIndex, i + 1)), [maxIndex])
+
+  useEffect(() => {
+    if (!autoPlay) return
+    const id = setInterval(() => {
+      setIndex(i => (i >= maxIndex ? 0 : i + 1))
+    }, autoPlayInterval)
+    return () => clearInterval(id)
+  }, [autoPlay, autoPlayInterval, maxIndex])
 
   const slideStyle = fixedWidth
     ? { minWidth: `${fixedWidth}px`, maxWidth: `${fixedWidth}px` }

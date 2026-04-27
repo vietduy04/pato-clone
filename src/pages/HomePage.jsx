@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, Fragment } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Carousel from "../components/Carousel";
 import RestaurantCard from "../components/RestaurantCard";
@@ -183,6 +183,8 @@ export default function HomePage() {
             <Carousel
               items={SUGGEST_ITEMS}
               itemsPerView={4}
+              autoPlay
+              autoPlayInterval={6000}
               renderItem={(item) => (
                 <div className="hpromo-item">
                   <Link to={item.href}>
@@ -342,27 +344,41 @@ export default function HomePage() {
               </div>
             </section>
           ))
-        : featuredCollections.map((col) => (
-            <section key={col.handle} className="home-collection-section">
-              <div className="wrapper">
-                <div className="inner">
-                  <div className="section-title clearfix">
-                    <h2>{col.title}</h2>
-                    <div className="view_more">
-                      <Link to={`/collections/${col.handle}`}>
-                        <strong>Xem thêm</strong>
-                      </Link>
+        : featuredCollections.map((col, colIndex) => (
+            <Fragment key={col.handle}>
+              <section className="home-collection-section">
+                <div className="wrapper">
+                  <div className="inner">
+                    <div className="section-title clearfix">
+                      <h2>{col.title}</h2>
+                      <div className="view_more">
+                        <Link to={`/collections/${col.handle}`}>
+                          <strong>Xem thêm</strong>
+                        </Link>
+                      </div>
                     </div>
+                    <Carousel
+                      items={col.items}
+                      fixedWidth={300}
+                      gap={20}
+                      renderItem={(r) => <RestaurantCard restaurant={r} />}
+                    />
                   </div>
-                  <Carousel
-                    items={col.items}
-                    fixedWidth={300}
-                    gap={20}
-                    renderItem={(r) => <RestaurantCard restaurant={r} />}
-                  />
                 </div>
-              </div>
-            </section>
+              </section>
+              {colIndex === 2 && (
+                <section className="home-partner-banner">
+                  <div className="wrapper">
+                    <Link to="/pages/dang-ky-doi-tac">
+                      <img
+                        src="//theme.hstatic.net/1000275435/1000883829/14/choose_1.png?v=1150"
+                        alt="Đăng ký đối tác PATO"
+                      />
+                    </Link>
+                  </div>
+                </section>
+              )}
+            </Fragment>
           ))}
       {/* Steps */}
       <section id="home-step">

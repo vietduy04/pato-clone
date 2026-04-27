@@ -323,3 +323,13 @@
         min-width: 100px;
     }
 }
+
+.home-partner-banner {
+    padding: 20px 0;
+}
+
+.home-partner-banner img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}

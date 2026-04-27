@@ -1,10 +1,29 @@
 {
   "cuisine_main": [
-    "Nướng", "Món Nga", "Món Âu", "Món Singapore", "Đặc Sản",
-    "Món Hàn", "Hải Sản", "Món Việt", "Món Tây Ban Nha", "Lẩu-Nướng",
-    "Món Việt - Miền Nam", "Món Việt - Miền Trung", "Quán nhậu",
-    "Món Việt - Miền Bắc", "Món Ý", "Món Thái", "Món Trung", "Món chay",
-    "Món Ấn Độ", "Món Nhật", "Lẩu", "Món Pháp", "Món Lào", "Món Á"
+    "Nướng",
+    "Món Nga",
+    "Món Âu",
+    "Món Singapore",
+    "Đặc Sản",
+    "Món Hàn",
+    "Hải Sản",
+    "Món Việt",
+    "Món Tây Ban Nha",
+    "Lẩu-Nướng",
+    "Món Việt - Miền Nam",
+    "Món Việt - Miền Trung",
+    "Quán nhậu",
+    "Món Việt - Miền Bắc",
+    "Món Ý",
+    "Món Thái",
+    "Món Trung",
+    "Món chay",
+    "Món Ấn Độ",
+    "Món Nhật",
+    "Lẩu",
+    "Món Pháp",
+    "Món Lào",
+    "Món Á"
   ],
   "service_type": ["Gọi món", "Buffet và Gọi món", "Buffet"],
   "price_range": [
@@ -15,7 +34,10 @@
     { "value": 5, "label": "Trên 500.000vnđ" }
   ],
   "status": [
-    "Địa điểm đổi địa chỉ", "Chưa hợp tác với cơ sở", "Đã hợp tác",
-    "Chưa hợp tác", "Tạm dừng hoạt động", "Địa điểm đổi tên", "Dừng hoạt động"
+    "Địa điểm đổi địa chỉ",
+    "Đã hợp tác",
+    "Chưa hợp tác",
+    "Địa điểm đổi tên",
+    "Dừng hoạt động"
   ]
 }
