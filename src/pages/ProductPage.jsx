@@ -1,126 +1,167 @@
-import { useMemo, useState, useCallback } from 'react'
-import { useParams, Link } from 'react-router-dom'
-import posthog from 'posthog-js'
-import useStore from '../store'
-import Carousel from '../components/Carousel'
-import RestaurantCard from '../components/RestaurantCard'
-import Breadcrumb from '../components/Breadcrumb'
-import './ProductPage.css'
+import { useMemo, useState, useCallback } from "react";
+import { useParams, Link } from "react-router-dom";
+import posthog from "posthog-js";
+import useStore from "../store";
+import Carousel from "../components/Carousel";
+import RestaurantCard from "../components/RestaurantCard";
+import Breadcrumb from "../components/Breadcrumb";
+import BookingModal from "../components/BookingModal";
+import "./ProductPage.css";
 
 const PRICE_LABELS = {
-  '1': 'Dưới 200.000đ/khách',
-  '2': 'Từ 200.000 - 300.000đ/khách',
-  '3': 'Từ 300.000 - 400.000đ/khách',
-  '4': 'Từ 400.000 - 500.000đ/khách',
-  '5': 'Trên 500.000đ/khách',
-}
+  1: "Dưới 200.000đ/khách",
+  2: "Từ 200.000 - 300.000đ/khách",
+  3: "Từ 300.000 - 400.000đ/khách",
+  4: "Từ 400.000 - 500.000đ/khách",
+  5: "Trên 500.000đ/khách",
+};
 
 const renderInline = (text) => {
-  const parts = text.split(/\*{2,3}(.+?)\*\*/g)
-  return parts.map((part, i) => i % 2 === 1 ? <strong key={i}>{part}</strong> : part)
-}
+  const parts = text.split(/\*{2,3}(.+?)\*\*/g);
+  return parts.map((part, i) =>
+    i % 2 === 1 ? <strong key={i}>{part}</strong> : part,
+  );
+};
 
 function renderMarkdown(description) {
-  const lines = description.split('\n').filter(Boolean)
-  const result = []
-  let i = 0
+  const lines = description.split("\n").filter(Boolean);
+  const result = [];
+  let i = 0;
   while (i < lines.length) {
-    if (lines[i].startsWith('- ')) {
-      const items = []
-      while (i < lines.length && lines[i].startsWith('- ')) {
-        items.push(<li key={i}>{renderInline(lines[i].slice(2))}</li>)
-        i++
+    if (lines[i].startsWith("- ")) {
+      const items = [];
+      while (i < lines.length && lines[i].startsWith("- ")) {
+        items.push(<li key={i}>{renderInline(lines[i].slice(2))}</li>);
+        i++;
       }
-      result.push(<ul key={`ul-${i}`}>{items}</ul>)
+      result.push(<ul key={`ul-${i}`}>{items}</ul>);
     } else {
-      result.push(<p key={i}>{renderInline(lines[i])}</p>)
-      i++
+      result.push(<p key={i}>{renderInline(lines[i])}</p>);
+      i++;
     }
   }
-  return result
+  return result;
 }
 
 function Lightbox({ images, index, onClose, onPrev, onNext }) {
-  if (index === null) return null
+  if (index === null) return null;
   return (
     <div className="lightbox-overlay" onClick={onClose}>
-      <button className="lightbox-btn lightbox-prev" onClick={e => { e.stopPropagation(); onPrev() }} aria-label="Previous">‹</button>
+      <button
+        className="lightbox-btn lightbox-prev"
+        onClick={(e) => {
+          e.stopPropagation();
+          onPrev();
+        }}
+        aria-label="Previous"
+      >
+        ‹
+      </button>
       <img
         className="lightbox-img"
         src={images[index]}
         alt={`Image ${index + 1}`}
-        onClick={e => e.stopPropagation()}
+        onClick={(e) => e.stopPropagation()}
       />
-      <button className="lightbox-btn lightbox-next" onClick={e => { e.stopPropagation(); onNext() }} aria-label="Next">›</button>
-      <button className="lightbox-close" onClick={onClose} aria-label="Close">×</button>
+      <button
+        className="lightbox-btn lightbox-next"
+        onClick={(e) => {
+          e.stopPropagation();
+          onNext();
+        }}
+        aria-label="Next"
+      >
+        ›
+      </button>
+      <button className="lightbox-close" onClick={onClose} aria-label="Close">
+        ×
+      </button>
     </div>
-  )
+  );
 }
 
 export default function ProductPage() {
-  const { handle } = useParams()
-  const { restaurants, loaded } = useStore()
-  const [lightboxIndex, setLightboxIndex] = useState(null)
+  const { handle } = useParams();
+  const { restaurants, loaded } = useStore();
+  const [lightboxIndex, setLightboxIndex] = useState(null);
+  const [bookingOpen, setBookingOpen] = useState(false);
 
-  const r = loaded ? restaurants.find(rest => rest.handle === handle) : null
+  const r = loaded ? restaurants.find((rest) => rest.handle === handle) : null;
 
   const allImages = useMemo(() => {
-    if (!r) return []
-    return [r.thumbnail, ...(r.images ?? [])].filter(Boolean)
-  }, [r])
+    if (!r) return [];
+    return [r.thumbnail, ...(r.images ?? [])].filter(Boolean);
+  }, [r]);
 
-  const openLightbox = useCallback((i) => setLightboxIndex(i), [])
-  const closeLightbox = useCallback(() => setLightboxIndex(null), [])
-  const prevImage = useCallback(() => setLightboxIndex(i => (i > 0 ? i - 1 : allImages.length - 1)), [allImages.length])
-  const nextImage = useCallback(() => setLightboxIndex(i => (i < allImages.length - 1 ? i + 1 : 0)), [allImages.length])
+  const openLightbox = useCallback((i) => setLightboxIndex(i), []);
+  const closeLightbox = useCallback(() => setLightboxIndex(null), []);
+  const prevImage = useCallback(
+    () => setLightboxIndex((i) => (i > 0 ? i - 1 : allImages.length - 1)),
+    [allImages.length],
+  );
+  const nextImage = useCallback(
+    () => setLightboxIndex((i) => (i < allImages.length - 1 ? i + 1 : 0)),
+    [allImages.length],
+  );
 
   const related = useMemo(() => {
-    if (!r) return []
+    if (!r) return [];
     return restaurants.filter(
-      rest =>
+      (rest) =>
         rest.handle !== r.handle &&
         rest.province === r.province &&
         rest.district === r.district &&
-        rest.cuisine_main === r.cuisine_main
-    )
-  }, [restaurants, r])
+        rest.cuisine_main === r.cuisine_main,
+    );
+  }, [restaurants, r]);
 
   if (!loaded) {
     return (
-      <div className="wrapper" style={{ padding: '60px 0', textAlign: 'center', color: '#666' }}>
+      <div
+        className="wrapper"
+        style={{ padding: "60px 0", textAlign: "center", color: "#666" }}
+      >
         Đang tải...
       </div>
-    )
+    );
   }
 
   if (!r) {
     return (
-      <div className="wrapper" style={{ padding: '60px 0', textAlign: 'center' }}>
+      <div
+        className="wrapper"
+        style={{ padding: "60px 0", textAlign: "center" }}
+      >
         <h1>Không tìm thấy nhà hàng</h1>
-        <Link to="/collections" style={{ color: 'var(--brand)' }}>← Quay lại danh sách</Link>
+        <Link to="/collections" style={{ color: "var(--brand)" }}>
+          ← Quay lại danh sách
+        </Link>
       </div>
-    )
+    );
   }
 
-  const amenities = r.amenities ? JSON.parse(r.amenities) : {}
-  const amenityList = Object.entries(amenities).filter(([k, v]) => v === true && k !== 'discount_available').map(([k]) => k)
+  const amenities = r.amenities ? JSON.parse(r.amenities) : {};
+  const amenityList = Object.entries(amenities)
+    .filter(([k, v]) => v === true && k !== "discount_available")
+    .map(([k]) => k);
 
-  const sideThumbImages = allImages.slice(1, 5)
-  const hasMore = allImages.length > 5
+  const sideThumbImages = allImages.slice(1, 5);
+  const hasMore = allImages.length > 5;
 
   return (
     <div className="product-page">
       <div className="wrapper">
-        <Breadcrumb items={[
-          { label: 'Trang chủ', href: '/' },
-          { label: 'Nhà hàng', href: '/collections' },
-          { label: r.title },
-        ]} />
+        <Breadcrumb
+          items={[
+            { label: "Trang chủ", href: "/" },
+            { label: "Nhà hàng", href: "/collections" },
+            { label: r.title },
+          ]}
+        />
 
         <div className="product-layout">
           {/* ── LEFT: main content ── */}
           <div className="product-main">
-
             {/* Gallery */}
             <div className="gallery-wrap">
               <div className="gallery-main-img" onClick={() => openLightbox(0)}>
@@ -129,18 +170,35 @@ export default function ProductPage() {
               {sideThumbImages.length > 0 && (
                 <div className="gallery-side">
                   {sideThumbImages.map((img, i) => {
-                    const isLast = i === 3 || (i === sideThumbImages.length - 1 && hasMore && i === sideThumbImages.length - 1)
-                    const showOverlay = hasMore && i === Math.min(sideThumbImages.length - 1, 3)
+                    const isLast =
+                      i === 3 ||
+                      (i === sideThumbImages.length - 1 &&
+                        hasMore &&
+                        i === sideThumbImages.length - 1);
+                    const showOverlay =
+                      hasMore && i === Math.min(sideThumbImages.length - 1, 3);
                     return (
-                      <div key={i} className="gallery-thumb-cell" onClick={() => openLightbox(i + 1)}>
-                        <img src={img} alt={`${r.title} ${i + 2}`} loading="lazy" />
+                      <div
+                        key={i}
+                        className="gallery-thumb-cell"
+                        onClick={() => openLightbox(i + 1)}
+                      >
+                        <img
+                          src={img}
+                          alt={`${r.title} ${i + 2}`}
+                          loading="lazy"
+                        />
                         {showOverlay && allImages.length > 5 && (
                           <div className="gallery-see-all-overlay">
-                            <span>Xem tất cả<br />{allImages.length} hình ảnh</span>
+                            <span>
+                              Xem tất cả
+                              <br />
+                              {allImages.length} hình ảnh
+                            </span>
                           </div>
                         )}
                       </div>
-                    )
+                    );
                   })}
                 </div>
               )}
@@ -157,8 +215,10 @@ export default function ProductPage() {
               )}
               {r.cuisine_all?.length > 0 && (
                 <div className="cuisine-tags">
-                  {r.cuisine_all.map(c => (
-                    <span key={c} className="cuisine-tag">{c}</span>
+                  {r.cuisine_all.map((c) => (
+                    <span key={c} className="cuisine-tag">
+                      {c}
+                    </span>
                   ))}
                 </div>
               )}
@@ -173,16 +233,23 @@ export default function ProductPage() {
                     <div className="promo-body">
                       <strong className="promo-title">{p.title}</strong>
                       {p.description && (
-                        <div className="promo-desc">{renderInline(p.description)}</div>
+                        <div className="promo-desc">
+                          {renderInline(p.description)}
+                        </div>
                       )}
                     </div>
-                    <a
-                      href="tel:19002280"
+                    <button
                       className="btn-promo-book"
-                      onClick={() => posthog.capture('promo_book_click', { restaurant_handle: r.handle, promo_title: p.title })}
+                      onClick={() => {
+                        posthog.capture("promo_book_click", {
+                          restaurant_handle: r.handle,
+                          promo_title: p.title,
+                        });
+                        setBookingOpen(true);
+                      }}
                     >
                       Đặt ngay
-                    </a>
+                    </button>
                   </div>
                 ))}
               </div>
@@ -242,7 +309,7 @@ export default function ProductPage() {
                   items={related}
                   itemsPerView={3}
                   gap={20}
-                  renderItem={rest => <RestaurantCard restaurant={rest} />}
+                  renderItem={(rest) => <RestaurantCard restaurant={rest} />}
                 />
               </div>
             )}
@@ -256,15 +323,23 @@ export default function ProductPage() {
               {r.discount && r.discount_details && (
                 <div className="sidebar-discount">{r.discount_details}</div>
               )}
-              <a
-                href="tel:19002280"
+              <button
                 className="btn-sidebar-book"
-                onClick={() => posthog.capture('booking_cta_click', { restaurant_handle: r.handle })}
+                disabled={r.status === "Dừng hoạt động"}
+                style={r.status === "Dừng hoạt động" ? { background: "#717171", cursor: "default" } : undefined}
+                onClick={() => {
+                  if (r.status === "Dừng hoạt động") return;
+                  posthog.capture("booking_cta_click", {
+                    restaurant_handle: r.handle,
+                  });
+                  setBookingOpen(true);
+                }}
               >
-                Đặt ngay
-              </a>
+                {r.status === "Dừng hoạt động" ? "Dừng hoạt động" : "Đặt ngay"}
+              </button>
               <div className="sidebar-phone-text">
-                hoặc gọi tới: <strong>1900.2280</strong> để đặt chỗ và được tư vấn
+                hoặc gọi tới: <strong>1900.2280</strong> để đặt chỗ và được tư
+                vấn
               </div>
             </div>
 
@@ -276,7 +351,12 @@ export default function ProductPage() {
                   <table className="hours-table">
                     <tbody>
                       {Object.entries(r.opening_hours).map(([day, hours]) => (
-                        <tr key={day}><td>{day}</td><td>{hours}</td></tr>
+                        <tr key={day}>
+                          <td>
+                            <strong>{day}</strong>
+                          </td>
+                          <td>{hours}</td>
+                        </tr>
                       ))}
                     </tbody>
                   </table>
@@ -286,7 +366,7 @@ export default function ProductPage() {
               <div className="sidebar-section">
                 <div className="sidebar-section-title">Thông tin thêm</div>
                 <div className="info-rows">
-                  {r.price_range && (
+                  {/* {r.price_range && (
                     <div className="info-row">
                       <span className="info-label">Giá</span>
                       <span>{PRICE_LABELS[r.price_range]}</span>
@@ -301,15 +381,23 @@ export default function ProductPage() {
                   {r.status && (
                     <div className="info-row">
                       <span className="info-label">Trạng thái</span>
-                      <span className={r.status === 'Đã hợp tác' ? 'status-active' : ''}>{r.status}</span>
+                      <span
+                        className={
+                          r.status === "Đã hợp tác" ? "status-active" : ""
+                        }
+                      >
+                        {r.status}
+                      </span>
                     </div>
-                  )}
+                  )}*/}
                   {amenityList.length > 0 && (
                     <div className="info-row info-row-amenities">
-                      <span className="info-label">Tiện ích</span>
+                      {/* <span className="info-label">Tiện ích</span>*/}
                       <div className="amenities-grid">
-                        {amenityList.map(k => (
-                          <span key={k} className="amenity-tag">✓ {k}</span>
+                        {amenityList.map((k) => (
+                          <span key={k} className="amenity-tag">
+                            ✓ {k}
+                          </span>
                         ))}
                       </div>
                     </div>
@@ -328,6 +416,13 @@ export default function ProductPage() {
         onPrev={prevImage}
         onNext={nextImage}
       />
+
+      {bookingOpen && (
+        <BookingModal
+          restaurant={r}
+          onClose={() => setBookingOpen(false)}
+        />
+      )}
     </div>
-  )
+  );
 }
