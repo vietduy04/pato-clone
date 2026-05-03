@@ -73,7 +73,7 @@ export default function BlogListPage() {
   const page = Math.max(1, parseInt(searchParams.get('page') || '1', 10))
 
   useEffect(() => {
-    fetch('/data/blog_index.json')
+    fetch(`${import.meta.env.BASE_URL}data/blog_index.json`)
       .then(r => r.json())
       .then(data => { setPosts(data); setLoading(false) })
       .catch(() => setLoading(false))

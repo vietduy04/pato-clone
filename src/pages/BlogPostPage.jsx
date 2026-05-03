@@ -142,7 +142,7 @@ export default function BlogPostPage() {
     setLoading(true)
     setError(false)
     setPost(null)
-    fetch(`/data/blog_data/${slug}.json`)
+    fetch(`${import.meta.env.BASE_URL}data/blog_data/${slug}.json`)
       .then(r => {
         if (!r.ok) throw new Error('not found')
         return r.json()
