@@ -7,6 +7,8 @@ import CollectionsPage from './pages/CollectionsPage'
 import SearchPage from './pages/SearchPage'
 import ProductPage from './pages/ProductPage'
 import StaticPage from './pages/StaticPage'
+import BlogListPage from './pages/BlogListPage'
+import BlogPostPage from './pages/BlogPostPage'
 import useStore from './store'
 
 export default function App() {
@@ -24,6 +26,8 @@ export default function App() {
           <Route path="/search" element={<SearchPage />} />
           <Route path="/products/:handle" element={<ProductPage />} />
           <Route path="/pages/:handle" element={<StaticPage />} />
+          <Route path="/blogs" element={<BlogListPage />} />
+          <Route path="/blogs/:slug" element={<BlogPostPage />} />
         </Routes>
       </main>
       <Footer />
