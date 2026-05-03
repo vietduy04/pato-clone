@@ -1,0 +1,353 @@
+{
+  "slug": "bep-quan-mon-ngon-dam-da-huong-vi-viet",
+  "title": "Bếp Quán: Món Ngon Đậm Đà Hương Vị Việt",
+  "date": "30/08/24",
+  "blocks": [
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/_pato__thumbnail__18__63a800a836ee450d91610b5b503d854b_grande.png)",
+      "src": "//file.hstatic.net/1000275435/file/_pato__thumbnail__18__63a800a836ee450d91610b5b503d854b_grande.png"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bếp Quán** là một trong những nhà hàng chuyên phục vụ *ẩm thực Việt* được yêu thích nhất tại thủ đô. Với không gian ấm cúng và menu phong phú, **Bếp Quán** mang đến cho thực khách những món ăn ngon, là nơi lý tưởng để gặp gỡ bạn bè và gia đình. Hãy cùng PATO khám phá **Bếp Quán **- nơi gìn giữ và phát triển* ẩm thực Việt* nhé!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Không gian Bếp Quán**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bếp Quán **được thiết kế theo phong cách truyền thống Việt Nam, với gam màu ấm áp và nội thất gỗ tự nhiên. Không gian của **Bếp Quán** rất thoáng đãng, tạo cảm giác gần gũi và thân thiện."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcMJrsFXl1sCtyJAc4T4qqagHtErmjkHWwHXxx1K6sWCtIgYDhXd9sCJ6Jcn7L4env1fAgYbHfimt0JayzpWhRnvtENPAUtP83xEvn-U0LsMo3AwYMBTILEi-qyEnAlU5Q8yoLIoTxLIqDx77x4zB74l3GX?key=odN4DP4XfJlU8RsUWO86Qg)",
+      "src": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcMJrsFXl1sCtyJAc4T4qqagHtErmjkHWwHXxx1K6sWCtIgYDhXd9sCJ6Jcn7L4env1fAgYbHfimt0JayzpWhRnvtENPAUtP83xEvn-U0LsMo3AwYMBTILEi-qyEnAlU5Q8yoLIoTxLIqDx77x4zB74l3GX?key=odN4DP4XfJlU8RsUWO86Qg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Không gian Bếp Quán được bố trí mang đậm văn hóa Việt*"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Những bức tranh dân gian và các vật dụng trang trí mang đậm bản sắc văn hóa Việt Nam được bài trí khéo léo, giúp thực khách cảm nhận được không khí quê hương ngay giữa lòng thành phố khi đến với **Bếp Quán**."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "***>>> [Top 10 các nhà hàng lẩu tại quận Cầu Giấy](https://pato.com.vn/blogs/top-nha-hang/nha-hang-lau-tai-quan-cau-giay)***"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Thực đơn của Bếp Quán**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Menu của **Bếp Quán** rất phong phú, bao gồm hơn 200 món ăn đặc trưng của *ẩm thực Việt Nam*. Từ các món khai vị đến món chính và tráng miệng, mỗi món ăn đều được chế biến tỉ mỉ từ những nguyên liệu tươi ngon nhất. Dưới đây là một số món ăn nổi bật mà bạn không nên bỏ lỡ khi đến **Bếp Quán**:"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Lẩu Chim Kê:  Một món ăn đặc sắc, mang đậm hương vị miền Bắc, với nước dùng thơm ngon và nhiều loại hải sản tươi sống."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Lẩu Tôm Bầu: Món ăn mang đậm hương vị cơm nhà, không chỉ ngon mà còn rất bổ dưỡng."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeZTjrwzm5jrjdcohvmTtdU5u6-HmnAOgY0rmfwT11QhZmpDR4PGwkmjDvWpH0Adfy2G7-bfDs2iSc7DXxxUjSSv1ELhW8a4spTgsL2ARi6iQA451fFJItaTojVMwyePf9XlmgoSTT3kopIEd_BEElHAl6N?key=odN4DP4XfJlU8RsUWO86Qg)",
+      "src": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeZTjrwzm5jrjdcohvmTtdU5u6-HmnAOgY0rmfwT11QhZmpDR4PGwkmjDvWpH0Adfy2G7-bfDs2iSc7DXxxUjSSv1ELhW8a4spTgsL2ARi6iQA451fFJItaTojVMwyePf9XlmgoSTT3kopIEd_BEElHAl6N?key=odN4DP4XfJlU8RsUWO86Qg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Món Lẩu Tôm Bầu tại Bếp Quán đậm đà, bổ dưỡng*"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Mã Heo Nướng Ngũ Vị: Thịt heo được ướp gia vị đặc trưng, nướng trên than hồng, tạo nên hương vị thơm ngon, hấp dẫn."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Mực Một Nắng Phan Thiết Nướng Tiêu:  Món ăn này mang đến hương vị biển khơi, với mực tươi ngon được nướng vừa chín tới giữ lại nguyên vẹn vị ngọt cùng mùi thơm của món nướng trên than."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Mức giá tại Bếp Quán**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Mức giá tại **Bếp Quán** rất hợp lý, phù hợp với nhiều đối tượng thực khách. Các món ăn tại đây có giá dao động từ 250.000 VNĐ đến 300.000 VNĐ/người, tùy thuộc vào từng món."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc0L04f5Tpg3Ty2_d2t5AgegjXOm09Zoqp2K7i9YCFw1m89enqRuSCh7DM_HOV84ZME-0_Ps4AzcEsG3GQld4fX4Yshk4bFgaCBOF_WjvgZ49uIhbiQl9oBcG77WeIYH0FZpFSro_Yc89Kh94i2XxanaHQW?key=odN4DP4XfJlU8RsUWO86Qg)",
+      "src": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXc0L04f5Tpg3Ty2_d2t5AgegjXOm09Zoqp2K7i9YCFw1m89enqRuSCh7DM_HOV84ZME-0_Ps4AzcEsG3GQld4fX4Yshk4bFgaCBOF_WjvgZ49uIhbiQl9oBcG77WeIYH0FZpFSro_Yc89Kh94i2XxanaHQW?key=odN4DP4XfJlU8RsUWO86Qg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Mức giá tại Bếp Quán cũng rất hợp lý*"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Với mức giá này, bạn có thể thưởng thức những món ăn ngon miệng và chất lượng mà không lo về chi phí."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Các nhà hàng món Việt đáng để trải nghiệm tại Hà Nội**"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": null,
+      "align": "justify",
+      "markdown": "### **Lẩu Tôm Sen Đào**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Không Gian: Lẩu Tôm Sen Đào nổi bật với không gian rộng rãi và thoáng đãng, được thiết kế theo phong cách hiện đại nhưng vẫn giữ được nét truyền thống."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeM5e7eSwjiX_a3MLsmgncKx021vFVbqrarLkCPOAUZFGrVExCTRPqN4MCHIf9lbekJLPFzhTfnNgyiu-Ug7svTMp2w1wQNzBjFSjEgd5s6_7oTuEVBBLNyAX1adhubEMS6wG0EysstuFjCYJGfCVz5I3yq?key=odN4DP4XfJlU8RsUWO86Qg)",
+      "src": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeM5e7eSwjiX_a3MLsmgncKx021vFVbqrarLkCPOAUZFGrVExCTRPqN4MCHIf9lbekJLPFzhTfnNgyiu-Ug7svTMp2w1wQNzBjFSjEgd5s6_7oTuEVBBLNyAX1adhubEMS6wG0EysstuFjCYJGfCVz5I3yq?key=odN4DP4XfJlU8RsUWO86Qg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Lẩu Tôm Sen Đào món ngon khó cưỡng*"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Menu: Menu của Lẩu Tôm Sen Đào chủ yếu tập trung vào các món lẩu, đặc biệt là lẩu tôm. Nước dùng được ninh từ xương và gia vị tự nhiên, mang đến hương vị đậm đà. Ngoài ra, nhà hàng còn phục vụ nhiều loại hải sản tươi sống, rau củ và các món ăn kèm hấp dẫn."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Mức Giá: Mức giá tại Lẩu Tôm Sen Đào rất hợp lý, dao động từ 200.000 VNĐ đến 250.000 VNĐ/ người."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**=> Tham khảo và Đặt bàn ngay để tận hưởng nhiều Ưu đãi hấp dẫn tại Pato: [Lẩu Tôm Sen Đào - Phó Đức Chính](lau-tom-sen-dao-36-pho-duc-chinh)**"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": null,
+      "align": "justify",
+      "markdown": "### **Mộc Lâm Quán**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Không Gian: Mộc Lâm Quán mang đến không gian ấm cúng và gần gũi, với nội thất gỗ tự nhiên và ánh đèn vàng dịu nhẹ."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Menu: Menu của Mộc Lâm Quán rất phong phú, bao gồm nhiều món ăn dân dã như cá kho tộ, thịt kho tàu, và các món ăn truyền thống khác. Mỗi món ăn đều được chế biến từ nguyên liệu tươi ngon, mang đến hương vị đậm đà và quen thuộc."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeAGTMVU71vJWegROyxBIXDA6LusX7gddRI6opwvY3krX0cK9oJH91W8iJgtKGm3pDhM8UjZ9PPfDwjAoxx3MJlVEnHRRwNzIUQJj7V-Q7mn8VJL-Hf_IdWPinCGqCp68gg3XG9bG1z7Q1D3_dJGx1p650w?key=odN4DP4XfJlU8RsUWO86Qg)",
+      "src": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeAGTMVU71vJWegROyxBIXDA6LusX7gddRI6opwvY3krX0cK9oJH91W8iJgtKGm3pDhM8UjZ9PPfDwjAoxx3MJlVEnHRRwNzIUQJj7V-Q7mn8VJL-Hf_IdWPinCGqCp68gg3XG9bG1z7Q1D3_dJGx1p650w?key=odN4DP4XfJlU8RsUWO86Qg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Mộc Lâm Quán - Ẩm thực đồng quê giữa lòng thành phố xô bồ*"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Mức Giá: Mức giá tại Mộc Lâm Quán rất phải chăng, với các món ăn dao động từ 80.000 VNĐ đến 250.000 VNĐ. Đây là một lựa chọn tuyệt vời cho những ai yêu thích ẩm thực truyền thống Việt Nam."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**=> Tham khảo và Đặt bàn ngay để tận hưởng nhiều Ưu đãi hấp dẫn tại Pato: [Mộc Lâm Quán - KĐT An Bình City](lau-tom-sen-dao-36-pho-duc-chinh)**"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": null,
+      "align": "justify",
+      "markdown": "### **Chả Cá Gia Nguyễn**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Không Gian: Chả Cá Gia Nguyễn có không gian thoải mái và thân thiện, với thiết kế đơn giản nhưng ấm cúng. Nhà hàng tạo cảm giác gần gũi, thích hợp cho các buổi gặp gỡ bạn bè và gia đình."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdwkhhH7CdUsqoKo0OwFIY8C4klGCcG4CW0QcSXekvTkIUEIjvnFZ2B2e0aa2Td3LPaAYjnefOrMYhknNrzUkPzCHulECkFum1eaEUJ7wRCgmzYAw2HiWVmo2UjSzOwRP7xZcy1HeIoxMSh1A0KbrQYfZ6A?key=odN4DP4XfJlU8RsUWO86Qg)",
+      "src": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdwkhhH7CdUsqoKo0OwFIY8C4klGCcG4CW0QcSXekvTkIUEIjvnFZ2B2e0aa2Td3LPaAYjnefOrMYhknNrzUkPzCHulECkFum1eaEUJ7wRCgmzYAw2HiWVmo2UjSzOwRP7xZcy1HeIoxMSh1A0KbrQYfZ6A?key=odN4DP4XfJlU8RsUWO86Qg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Chả cá Gia Nguyễn chất lượng tuyệt hảo*"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Menu: Chả Cá Gia Nguyễn nổi tiếng với món chả cá, được chế biến từ cá tươi ngon và gia vị đặc trưng. Món ăn được phục vụ kèm với bún, rau sống và nước mắm chua ngọt, mang đến hương vị tuyệt vời."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Mức Giá: Mức giá tại Chả Cá Gia Nguyễn rất hợp lý dao động từ 200.000 VNĐ đến 300.000 VNĐ/người."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**=> Tham khảo và Đặt bàn ngay để tận hưởng nhiều Ưu đãi hấp dẫn tại Pato: [Chả cá Gia Nguyễn - Trần Khát Chân](cha-ca-gia-nguyen-339-tran-khat-chan)**"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": null,
+      "align": "justify",
+      "markdown": "### **Cơm Việt Heritage**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Không Gian: Cơm Việt Heritage mang đến không gian đậm văn hóa Việt từ các bài trí nội thất cho đến gam màu chủ đạo của nhà hàng. Cơm Việt Heritage mang đến không gian sang trọng nhưng không kém phần cổ kính."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd70aCrhyxg6Hb94wlF17AnF6F1g_2LFwdGdU2SLbj7WaMLs9DffeKlnawM2zXnljW7yhiJd05vpPQGSEaBKr757OimwOoBK8BGvtIw4vlHfq9SN6bb27IiD7HbVWuLehnoNKz2BoDUuP5_J5U0VBoJpEpu?key=odN4DP4XfJlU8RsUWO86Qg)",
+      "src": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXd70aCrhyxg6Hb94wlF17AnF6F1g_2LFwdGdU2SLbj7WaMLs9DffeKlnawM2zXnljW7yhiJd05vpPQGSEaBKr757OimwOoBK8BGvtIw4vlHfq9SN6bb27IiD7HbVWuLehnoNKz2BoDUuP5_J5U0VBoJpEpu?key=odN4DP4XfJlU8RsUWO86Qg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Cơm Việt Heritage- Ẩm thực Cung đình nơi phố phường hiện đạ*i"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Menu: Menu của Cơm Việt rất đa dạng, bao gồm nhiều món ăn truyền thống như chả ốc Hà Thành, tôm sú bao hạnh nhân, cá song hấp sốt cà tím,... Mỗi món ăn đều được chế biến từ nguyên liệu tươi ngon, mang đến hương vị đậm đà, khó quên và bổ dưỡng."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Mức Giá: Mức giá tại Cơm Việt Heritage tương đối cao dao động từ 500.000 VNĐ/người. Tuy nhiên giá cả xứng đáng với trải nghiệm tại nhà hàng."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**=> Tham khảo và Đặt bàn ngay để tận hưởng nhiều Ưu đãi hấp dẫn tại Pato: [Cơm Việt Heritage - Phạm Hồng Thái](cha-ca-gia-nguyen-339-tran-khat-chan)**"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": null,
+      "align": "justify",
+      "markdown": "### **Chả Cá Hàng Sơn**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Không Gian: Chả Cá Hàng Sơn có không gian thoải mái, thoáng mát với thiết kế đơn giản nhưng ấm cúng. Nhà hàng tạo cảm giác gần gũi, thích hợp cho các buổi gặp gỡ bạn bè và gia đình."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc--QcLs-GZGCBwqThxsQEy_dxF_SopO1ysqt-v3qQzfokuFefGfGrm8GwOILd59rK1IMCt3KOHF9U358_O3U_GSWrSCLWN594mQpKbsPqQCbhnUCO1ddCPybb2EGh9MnEjKe03XfpTcV3BFeomdbs5gnyU?key=odN4DP4XfJlU8RsUWO86Qg)",
+      "src": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXc--QcLs-GZGCBwqThxsQEy_dxF_SopO1ysqt-v3qQzfokuFefGfGrm8GwOILd59rK1IMCt3KOHF9U358_O3U_GSWrSCLWN594mQpKbsPqQCbhnUCO1ddCPybb2EGh9MnEjKe03XfpTcV3BFeomdbs5gnyU?key=odN4DP4XfJlU8RsUWO86Qg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Hình 5. Chả cá Hàng Sơn - Những món ngon bậc nhất đất Kinh Kỳ*"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Menu: Chả Cá Hàng Sơn nổi tiếng với món chả cá, được chế biến từ cá tươi ngon và gia vị đặc trưng. Món ăn được phục vụ kèm với bún, rau sống và nước mắm chua ngọt, mang đến hương vị tuyệt vời."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Mức Giá: Mức giá tại Chả Cá Hàng Sơn rất hợp lý, với các món ăn dao động từ 100.000 VNĐ đến 300.000 VNĐ."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**=> Tham khảo và Đặt bàn ngay để tận hưởng nhiều Ưu đãi hấp dẫn tại Pato: [Chả cá Hàng Sơn](https://pato.com.vn/collections/cha-ca-hang-son-ha-noi/)**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Như vậy, bài viết trên **[PATO](https://pato.com.vn/)** đã cung cấp cho bạn thông tin về nhà hàng ***Bếp Quán và những nhà hàng món Việt ngon tại Hà Nội* **giúp bạn thưởng thức trọn vẹn nhất hương vị tinh hoa ẩm thực Việt. Hãy theo dõi **[PATO](https://pato.com.vn/)** để biết thêm các địa điểm trải nghiệm ẩm thực nổi tiếng khác."
+    }
+  ],
+  "related_articles": {
+    "title": "Các bài viết liên quan",
+    "items": [
+      {
+        "title": "Top 5 quán hải sản ngon Sài Gòn 2026: Tươi rói, đậm đà, \"oanh tạc\" mọi buổi nhậu",
+        "url": "/blogs/blog-pato/top-5-quan-hai-san-ngon-sai-gon-2026-tuoi-roi-dam-da-oanh-tac-moi"
+      },
+      {
+        "title": "Top 5 mỹ vị Gia Lâm: Từ đồ Nhật thượng hạng đến lẩu Thái cay nồng chuẩn vị",
+        "url": "/blogs/blog-pato/top-5-my-vi-gia-lam-tu-do-nhat-thuong-hang-den-lau-thai-cay-nong-chua"
+      },
+      {
+        "title": "Top Những Quán Nhậu Chất Đét, \"Bén Mồi\" Không Thể Bỏ Qua Tại Hà Nội",
+        "url": "/blogs/blog-pato/top-nhung-quan-nhau-chat-det-ben-moi-khong-the-bo-qua-tai-ha-noi"
+      },
+      {
+        "title": "Top Những Quán Gà Ngon Nức Tiếng Không Thể Bỏ Lỡ Tại Hà Nội",
+        "url": "/blogs/blog-pato/top-nhung-quan-ga-ngon-nuc-tieng-khong-the-bo-lo-tai-ha-noi"
+      },
+      {
+        "title": "Top 5 Quán Sushi Và Ẩm Thực Nhật Bản Đáng Thử Nhất Tại Hà Nội",
+        "url": "/blogs/blog-pato/top-5-quan-sushi-va-am-thuc-nhat-ban-dang-thu-nhat-tai-ha-noi"
+      },
+      {
+        "title": "Top 5 \"thiên đường\" đồ Thái quận Cầu Giấy: Vị chuẩn xứ Chùa Vàng, ngon quên lối về!",
+        "url": "/blogs/blog-pato/top-5-thien-duong-do-thai-quan-cau-giay-vi-chuan-xu-chua-vang-ngon"
+      }
+    ]
+  }
+}
