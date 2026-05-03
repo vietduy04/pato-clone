@@ -1,0 +1,269 @@
+{
+  "slug": "huong-dan-lam-banh-bot-loc-phan-thiet",
+  "title": "Hướng dẫn làm bánh bột lọc Phan Thiết",
+  "date": "24/06/25",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Bánh bột lọc là món bánh dân dã quen thuộc với người Việt, nhưng ở mỗi vùng miền lại có một phiên bản riêng biệt. Trong số đó, **bánh bột lọc Phan Thiết** mang hương vị đặc trưng miền biển, với lớp vỏ mỏng dẻo trong, phần nhân tôm thịt đậm đà và nước mắm pha chua ngọt rất đặc trưng. Trong bài viết này, hãy cùng **PATO** khám phá **hướng dẫn làm bánh bột lọc Phan Thiết** tại nhà vừa dễ làm, vừa giữ trọn hương vị gốc!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Nguyên liệu làm bánh bột lọc Phan Thiết**"
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/ng_dan_lam_banh_quai_vac_phan_thiet_2_a92c21d79d864f988f5c0fd5f437904a_1024x1024.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/ng_dan_lam_banh_quai_vac_phan_thiet_2_a92c21d79d864f988f5c0fd5f437904a_1024x1024.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Tôm tươi là yếu tố tạo nên phần nhân ngọt thơm, dai giòn và đặc trưng cho bánh bột lọc Phan Thiết*"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Để thực hiện món bánh bột lọc Phan Thiết thơm ngon, bạn cần chuẩn bị đầy đủ các nguyên liệu cơ bản sau:"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- **400g bột năng** - là nguyên liệu chính để tạo nên lớp vỏ bánh dẻo dai, trong suốt đặc trưng."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- **450g tôm tươi** - ưu tiên chọn tôm đất hoặc tôm biển cỡ nhỏ, tươi sống để giữ được độ ngọt tự nhiên khi làm nhân."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- **100g đường** - dùng để tạo độ ngọt cân bằng trong nhân và nước mắm chấm."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- **125ml nước mắm ngon** - giúp phần nước chấm đậm đà, thơm chuẩn vị Phan Thiết."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- **1 muỗng canh nước cốt chanh** - tạo vị chua thanh cho nước mắm chấm."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- **1 muỗng canh dầu điều** - giúp nhân bánh có màu đỏ cam hấp dẫn, đẹp mắt."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- **1/2 muỗng cà phê ớt bột Hàn Quốc** - tăng độ cay và màu sắc cho nhân tôm."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- **1 muỗng canh tỏi băm** - dùng để xào nhân và pha nước chấm, tăng hương vị thơm nồng."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- **Một ít mỡ hành và hành phi** - rưới lên bánh khi đã hấp chín, giúp bánh thơm béo và hấp dẫn hơn."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- **Ớt tươi băm** - cho vào nước chấm để tăng độ cay tùy khẩu vị."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- **Gia vị thông dụng**: hạt nêm, muối, tiêu… - dùng để nêm nếm nhân tôm và nước chấm vừa ăn."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Cách chọn tôm tươi làm bánh bột lọc chuẩn vị**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Phần nhân là linh hồn của món bánh bột lọc, và tôm chính là nguyên liệu chính quyết định đến độ ngon ngọt, đậm đà. Vì vậy, chọn tôm tươi đúng chuẩn sẽ giúp món bánh giữ được hương vị đặc trưng và không bị tanh hay khô khi chế biến."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- **Ưu tiên tôm đất hoặc tôm biển nhỏ**: Đây là hai loại tôm thường được dùng để làm bánh bột lọc Phan Thiết. Tôm đất có vị ngọt tự nhiên, thịt chắc và không bị bở khi xào. Tôm biển nhỏ thì có lớp vỏ mỏng, thịt thơm, tạo độ dai nhẹ hấp dẫn khi dùng nguyên con."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- **Tôm còn sống hoặc vừa mới đánh bắt**: Tôm tươi sống sẽ có vỏ bóng, thân cong tự nhiên, màu sắc đồng đều. Tránh chọn những con có dấu hiệu mềm nhũn, thân uốn thẳng đơ hoặc có mùi tanh nồng vì đó là tôm đã để lâu."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- **Phù hợp với kiểu chế biến**: Nếu bạn muốn để nguyên con tôm trong bánh cho đẹp mắt và đúng chất truyền thống, nên chọn những con tôm nhỏ đều, dài khoảng ngón tay út. Nếu dùng tôm lớn, bạn có thể bóc vỏ, bỏ đầu và cắt đôi cho dễ gói và dễ ăn."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Hướng dẫn làm bánh bột lọc Phan Thiết**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Bánh bột lọc Phan Thiết không chỉ nổi bật nhờ lớp vỏ dẻo trong mà còn nhờ phần nhân tôm rim đậm đà cùng nước mắm tỏi ớt chua ngọt đặc trưng. Hãy cùng [**PATO**](https://pato.com.vn/) bắt tay vào thực hiện món bánh này theo các bước chi tiết dưới đây."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/ng_dan_lam_banh_quai_vac_phan_thiet_1_b32569e78fe546cb92326ef9a7c73e1d_1024x1024.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/ng_dan_lam_banh_quai_vac_phan_thiet_1_b32569e78fe546cb92326ef9a7c73e1d_1024x1024.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Từ những nguyên liệu dân dã, bánh bột lọc Phan Thiết vẫn đủ sức níu giữ mọi khẩu vị khó tính nhất*"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 1: Sơ chế và rim tôm**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Tôm rửa sạch, cắt râu, giữ nguyên vỏ và đầu nếu muốn làm đúng kiểu bánh Phan Thiết truyền thống. Nếu thích ăn gọn, bạn có thể bóc vỏ, rút chỉ lưng."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Ướp tôm với 1/2 muỗng cà phê muối, 1 muỗng canh đường, 1/2 muỗng cà phê tiêu, 1 muỗng canh tỏi băm, để trong 15 phút cho ngấm."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Đun nóng 1 muỗng canh dầu điều, cho tôm vào xào săn. Thêm vào 1/2 muỗng cà phê ớt bột Hàn Quốc để tạo màu đẹp mắt."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Rim đến khi tôm thấm gia vị, nước cạn sệt lại là được. Để nguội."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 2: Trộn và nhào bột**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Cho 400g bột năng vào tô lớn, thêm từ từ khoảng 250ml nước sôi vào, khuấy đều bằng đũa cho bột kết dính."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Khi bột nguội bớt, nhào tay đến khi mịn dẻo. Nếu bột còn khô, có thể thêm nước ấm từng chút để đạt độ dẻo vừa phải, không dính tay."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "***>> Mẹo nhỏ****: Bột đạt chuẩn là khi không quá nhão, không bị vỡ khi tạo hình, và có độ đàn hồi tốt sau khi hấp.*"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 3: Gói bánh**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Ngắt từng viên bột nhỏ (khoảng bằng đầu ngón tay cái), cán dẹt hoặc dùng tay ấn mỏng."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Cho 1 con tôm đã rim vào giữa, gập đôi miếng bột lại và miết kín mép. Tạo hình bán nguyệt."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Lót lá chuối hoặc giấy nến dưới xửng hấp để bánh không bị dính."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 4: Hấp bánh**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Đun sôi nước, cho bánh vào xửng hấp khoảng 10–12 phút đến khi vỏ bánh trong lại là đạt."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Khi bánh chín, lấy ra để nguội rồi phết lên lớp mỡ hành và hành phi để tạo mùi thơm béo hấp dẫn."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 5: Pha nước chấm chua ngọt**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Trộn 125ml nước mắm, 100g đường, 1 muỗng canh nước cốt chanh, khuấy đều cho tan."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Thêm ớt tươi băm nhỏ và tỏi băm tùy khẩu vị."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Với công thức đơn giản, nguyên liệu dễ tìm và cách làm không quá cầu kỳ, bạn hoàn toàn có thể tự tay làm ra những chiếc bánh bột lọc Phan Thiết thơm ngon, giòn dẻo và chuẩn vị như ngoài hàng. Đừng quên lựa chọn **bột năng chất lượng**, **tôm tươi**, cùng các **dụng cụ hỗ trợ nhà bếp** như xửng hấp hoặc chảo chống dính tốt để giúp món bánh đạt độ hoàn hảo nhất."
+    }
+  ],
+  "related_articles": {
+    "title": "Các bài viết liên quan",
+    "items": [
+      {
+        "title": "Khám Phá Thiên Đường Gà Ngon Hà Nội – Từ Truyền Thống Đến Hiện Đại",
+        "url": "/blogs/huong-dan/kham-pha-thien-duong-ga-ngon-ha-noi-tu-truyen-thong-den-hien-dai"
+      },
+      {
+        "title": "Khám Phá Thiên Đường Buffet Linh Đàm – Ăn \"Sập\" Các Tọa Độ Ngon Quên Lối Về",
+        "url": "/blogs/huong-dan/kham-pha-thien-duong-buffet-linh-dam-an-sap-cac-toa-do-ngon-quen-l"
+      },
+      {
+        "title": "Khám phá Ẩm thực Sân Vườn Mái Lá Quận 7 – Không gian xanh giữa lòng phố thị",
+        "url": "/blogs/huong-dan/https-pato-com-vn-blogs-huong-dan-kham-pha-am-thuc-san-vuon-mai-la-quan-7"
+      },
+      {
+        "title": "Khám phá khu ẩm thực phong phú tại Aeon Mall Xuân Thủy - 5 quán ăn không thể bỏ lỡ",
+        "url": "/blogs/huong-dan/kham-pha-khu-am-thuc-phong-phu-tai-aeon-mall-xuan-thuy-5-quan-an-kho"
+      },
+      {
+        "title": "Bách Hợp Quán - Buffet Lẩu Nướng Đậm Vị Được Dân Văn Phòng Săn Lùng",
+        "url": "/blogs/huong-dan/bach-hop-quan-buffet-lau-nuong-dam-vi-duoc-dan-van-phong-san-lung"
+      },
+      {
+        "title": "Maison Sen Buffet - Trải nghiệm ẩm thực Á Âu đỉnh cao tại Trần Hưng Đạo",
+        "url": "/blogs/huong-dan/maison-sen-buffet-trai-nghiem-am-thuc-a-au-dinh-cao-tai-tran-hung-da"
+      }
+    ]
+  }
+}

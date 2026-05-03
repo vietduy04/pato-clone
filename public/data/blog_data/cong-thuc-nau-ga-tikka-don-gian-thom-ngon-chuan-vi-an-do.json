@@ -1,0 +1,319 @@
+{
+  "slug": "cong-thuc-nau-ga-tikka-don-gian-thom-ngon-chuan-vi-an-do",
+  "title": "Công thức nấu gà tikka đơn giản, thơm ngon, chuẩn vị Ấn Độ",
+  "date": "18/08/22",
+  "blocks": [
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/anh_bia__1__e2186ab02af443068b13bc18164917a6_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/anh_bia__1__e2186ab02af443068b13bc18164917a6_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Nếu bạn là tín đồ của các món Ấn Độ thì chắc hẳn đã nghe đến **gà Tikka **Masala - món ăn được cả người bản địa và nước ngoài yêu thích. Trong bài viết dưới đây [**PATO**](https://pato.com.vn/) sẽ chia sẻ chi tiết về nguồn gốc của món gà tikka và công thức chế biến món ăn hấp dẫn này."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Gà Tikka là gì? Nguồn gốc của món gà tikka**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Gà Tikka Masala là một món ăn từ thịt gà có nguồn gốc từ Nam Á, phổ biến tại Bangladesh, Ấn Độ và Pakistan."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Món gà này thường được ướp với sữa chua, sử dụng nhiều các loại hạt gia vị để tạo mùi thơm đặc trưng, và có màu cam từ màu cà chua, bột ớt paprika hay bột nghệ. Tikka Masala có mùi thơm nồng, nước sốt sệt và có vị cay nhẹ hoặc mạnh tùy theo lượng bột ớt được sử dụng."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/nguon-goc-mon-ga-tikka_358621d5a52d419b9f5dc2803f525afb_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/nguon-goc-mon-ga-tikka_358621d5a52d419b9f5dc2803f525afb_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Nguồn gốc của món **gà Tikka***"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Có rất nhiều câu chuyện về nguồn gốc của món **gà Tikka **nhưng đến nay tất cả vẫn chưa được chứng thực cụ thể. Một trong số đó là câu chuyện kể rằng vào một đêm tối và giông bão ở Glasian năm 1971, một tài xế xe buýt đã dừng lại tại một nhà hàng Ấn Độ địa phương để thưởng thức cà ri gà."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Tuy nhiên anh ấy cảm thấy không hài lòng và gửi lại bếp vì quá khô. Sau đó, đầu bếp đã sử dụng súp cà chua sền sệt, kem béo để giúp món ăn ẩm hơn. Người lái xe buýt sau khi nếm thử đã vô cùng thích thú với món mới của mình đến nỗi anh ấy quay lại thường xuyên trong nhiều năm cùng gia đình. Như vậy, nguồn gốc gà Tikka Masala đã ra đời từ đó."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "*===>** Xem thêm: **Công thức làm *[***bánh Naan***](https://pato.com.vn/blogs/am-thuc-an-do/bat-mi-cong-thuc-banh-mi-naan-chuan-an-do) *chuẩn Ấn Độ thơm ngon, giòn rụm *"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Nguyên liệu nấu gà tikka**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Thịt gà 400g"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Heavy cream 300ml (kem sữa)"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Sữa chua 225gr"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Bột garam masala 1 muỗng canh"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Bơ lạt 56gr"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Hạt ngò 1 muỗng canh"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Bột thì là 1/2 muỗng cà phê"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Bột nghệ 1 muỗng cà phê"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Cà chua 5 quả"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Hành tây 1 củ (lớn)"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Tỏi 7 tép"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Gừng 1/4 củ"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Ớt đỏ 2 quả"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Muối hạt 2 muỗng cà phê"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Bột ớt paprika 1 muỗng canh"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Dầu ăn 2 muỗng canh"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Muối 1 ít"
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/nguyen-lieu-nau-mon-ga-tikka_be9332a17530495e96cbeecf380a198c_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/nguyen-lieu-nau-mon-ga-tikka_be9332a17530495e96cbeecf380a198c_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Nguyên liệu nấu** gà tikka***"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Cách nấu gà tikka đơn giản tại nhà  **"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 1: Làm sốt cà ri **"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Tiến hành rang 1 muỗng canh hạt ngò, 1/2 muỗng cà phê bột thì là trên lửa vừa trong 2 phút."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Tiếp tục cho hỗn hợp vừa rang vào máy xay sinh tố xay ở tốc độ vừa, khi hỗn hợp được xay vụn thì cho 1 muỗng canh bột garam masala, 1 muỗng cà phê bột nghệ, 7 tép tỏi, 1/4 củ gừng, 2 quả ớt đỏ, 60ml nước, 1 muỗng canh dầu ăn, xay cho hỗn hợp sốt nhuyễn, sệt lại là được."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/che-bien-ga-tikka_aa91f7b885b144c795da319c15cfa299_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/che-bien-ga-tikka_aa91f7b885b144c795da319c15cfa299_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Cách làm sốt cà ri nấu** gà tikka***"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 2: Sơ chế và ướp gà**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Thịt gà sau khi mua về rửa sạch, lột vỏ da và lọc xương rồi dùng muối chà xát để loại hết chất dơ, nhầy. Sau đó rửa sạch lại với nước rồi đem cắt thành từng miếng nhỏ vừa ăn."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/cach-so-che-ga-tikka_c5b4ddfb8aa74dc58af049a9f5b1ab87_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/cach-so-che-ga-tikka_c5b4ddfb8aa74dc58af049a9f5b1ab87_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Cách sơ chế và ướp **gà tikka ***"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Cho vào tô 225gr sữa chua, 2 muỗng canh hỗn hợp sốt cà ri vừa làm, 2 muỗng cà phê muối hạt rồi cho thịt gà vào trộn đều cho gà thấm đều sữa chua và sốt cà ri. Sau đó, dùng màng bọc thực phẩm bao kín miệng tô rồi cho vào ngăn mát tủ lạnh 20 phút để gà thấm đều gia vị."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 3: Áp chảo gà **"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Cho vào chảo 1 muỗng canh dầu ăn rồi cho gà ướp sốt vào áp chảo với lửa vừa trong khoảng 3 - 4 phút để thịt gà săn lại trước khi nấu."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/cach-lam-mon-ga-tikka_fe9038bc1ce243859cda9484c82b9904_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/cach-lam-mon-ga-tikka_fe9038bc1ce243859cda9484c82b9904_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Áp chảo và nấu cà ri *"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 4: Nấu cà ri **"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Bạn luộc cà chua trong nồi nước sôi khoảng 5 phút cho mềm rồi cho vào máy xay, điều chỉnh và xay ở tốc độ cao cho cà chua nhuyễn nát thành dạng lỏng. Tiếp theo lọc cà chua qua rây để loại bỏ cặn vỏ và hạt cà chua."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Trên chảo vừa áp chảo gà bạn cho 56gr bơ lạt vào, đun chảy. Tiếp đến, bạn cho vào 1 củ hành tây xắt hạt lựu, hỗn hợp sốt cà ri, cà chua xay nhuyễn vào xào ở lửa nhỏ vừa khoảng 10 phút."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Khi hỗn hợp bắt đầu sánh lại bạn đổ thêm 300ml heavy cream và gà vào rồi đun khoảng 10 - 15 phút trên lửa nhỏ vừa. Khi gà chín mềm, sốt trong nồi hơi sánh đặc thì bạn tắt bếp."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Thành phẩm món gà tikka thơm ngon, chuẩn vị **"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Sau khi thực hiện ***cách làm tikka*** như trên, ta sẽ được thành phẩm là cà ri gà cay Tikka masala thơm lừng, sốt sánh đặc ngậy bùi, gà mềm ngọt vô cùng hấp dẫn. Rất phù hợp nếu bạn ăn cà ri gà cùng với cơm nóng kèm với đó là vài lá ngò rí."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/thanh-pham-mon-ga-tikka_90a4abc5a08d4590906cd62cff675787_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/thanh-pham-mon-ga-tikka_90a4abc5a08d4590906cd62cff675787_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Thành phẩm món gà tikka thơm ngon, chuẩn vị *"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "*===> **Xem thêm:** Cách làm *[***cà ri Ấn Độ***](https://pato.com.vn/blogs/am-thuc-an-do/su-khac-biet-cua-ca-ri-an-do-va-cach-lam-ca-ri-an-do-sieu-ngon-ngay-tai-nha) *thơm ngon, đậm đà *"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Như vậy, bài viết đã chia sẻ chi tiết cách làm món **gà tikka**, bạn hoàn toàn có thể chế biến và thưởng thức món ăn độc đáo này cùng người thân, bạn bè ngay tại nhà. Theo dõi và cập nhật những công thức nấu ăn mới nhất mỗi ngày tại blog PATO."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Nếu bạn có nhu cầu thưởng thức [**ẩm thực Ấn**](https://pato.com.vn/blogs/am-thuc-an-do/nhung-net-dac-trung-trong-am-thuc-an-do-ma-co-the-ban-chua-biet), [**PATO**](https://pato.com.vn/%5C) sẵn sàng phục vụ bạn với top[** nhà hàng Ấn Độ**](https://pato.com.vn/blogs/am-thuc-an-do/nha-hang-an-do-tai-ha-noi) cực ngon tại Hà Nội, liên hệ hotline **[1900.2280](tel:1900.2280) **để đặt bàn ngay."
+    }
+  ],
+  "related_articles": {
+    "title": "Các bài viết liên quan",
+    "items": [
+      {
+        "title": "Công thức gà bỏ lò phô mai thơm ngon béo ngậy như ngoài quán",
+        "url": "/blogs/mon-ga/cong-thuc-ga-bo-lo-pho-mai-thom-ngon-beo-ngay-nhu-ngoai-quan"
+      },
+      {
+        "title": "6 cách ướp gà nướng siêu ngon mà đơn giản, ai cũng có thể làm được",
+        "url": "/blogs/mon-ga/6-cach-uop-ga-nuong-sieu-ngon-ma-don-gian-ai-cung-co-the-lam-duoc"
+      },
+      {
+        "title": "Cách làm cánh gà chiên nước mắm bằng nồi chiên không dầu cực ngon",
+        "url": "/blogs/mon-ga/cach-lam-canh-ga-chien-nuoc-mam-bang-noi-chien-khong-dau-cuc-ngon"
+      }
+    ]
+  }
+}

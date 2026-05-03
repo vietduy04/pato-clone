@@ -1,0 +1,348 @@
+{
+  "slug": "bi-quyet-nau-lau-tu-xuyen-cay-thom-hap-dan-chuan-trung-hoa",
+  "title": "Bí quyết nấu lẩu Tứ Xuyên cay thơm hấp dẫn chuẩn Trung Hoa",
+  "date": "23/07/22",
+  "blocks": [
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/lau-tu-xuyen_6f8b2f95b69343a0adcb7e83ca45a8fd_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/lau-tu-xuyen_6f8b2f95b69343a0adcb7e83ca45a8fd_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Ẩm thực Trung Hoa từ lâu đã nổi tiếng với hương vị lôi cuốn cùng màu sắc bắt mắt, thu hút mọi thực khách thưởng thức. Đặc biệt phải kể đến món** lẩu Tứ Xuyên **trứ danh với nước dùng đậm đà ngon khó cưỡng, cùng** PATO** học ngay ***công thức lẩu Tứ Xuyên*** đặc biệt này."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Nguyên liệu**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Xương gà: 300g"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Xương ống heo: 300g"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Thịt ba chỉ: 300g"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Tôm sú: 300g"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Mực ống: 300g"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Đậu hũ: 200g"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- 80g tương Tứ Xuyên, 5g tiêu Tứ Xuyên"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- 200ml sữa tươi béo Carnation, 60g sữa đặc"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- 20ml rượu hoa tiêu, 5g hoa hồi, 3g quế, 15g ớt khô, 10g bột ớt quế, 50g mè rang"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- 1 củ hành tím, 1 củ tỏi, ½ củ gừng"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Các loại rau, nấm ăn kèm: nấm kim châm, nấm hương, nấm đùi gà rau cải xanh, rau cải thảo,..."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Gia vị: đường phèn, muối, mì chính, hạt nêm, giấm Catchup, giấm đỏ, dầu ớt, tương mè, bơ đậu phộng, bột ớt, dầu ăn, sa tế, nước tương"
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/cong-thuc-lam-lau-tu-xuyen_d03a3f04e1eb4af58068f71206095a95_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/cong-thuc-lam-lau-tu-xuyen_d03a3f04e1eb4af58068f71206095a95_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Nguyên liệu thịt cho món ***lẩu Tứ Xuyên**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "***Xem thêm: ****Cách nấu món *[***thịt khâu nhục Quảng Đông***](https://pato.com.vn/blogs/am-thuc-trung-hoa/cach-lam-thit-khau-nhuc-quang-dong-tai-nha-sieu-don-gian)* lạ miệng hấp dẫn*"
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/cong-thuc-nau-lau-tu-xuyen_eae730ec7cd74250bba0c0def0b631a4_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/cong-thuc-nau-lau-tu-xuyen_eae730ec7cd74250bba0c0def0b631a4_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Gia vị cần có để chế biến món*** lẩu Tứ Xuyên**"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Các bước thực hiện**"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": null,
+      "align": "justify",
+      "markdown": "### **Sơ chế nguyên liệu**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Xương gà và xương ống mua về rửa sạch với muối và gừng đập dập để khử tanh và chất bẩn. Để ráo và chặt thành từng khúc."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Thịt ba chỉ, tôm sú, mực ống đem rửa sạch với nước và một ít muối. Thịt ba chỉ cắt lát mỏng vừa ăn, mực ống cắt khúc."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Đậu hũ nhẹ nhàng rửa với nước, cắt thành các miếng vừa ăn."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Gừng, hành tím và tỏi bỏ vỏ rồi băm nhỏ nguyên liệu."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Các loại rau và nấm đem ngâm cùng nước muối loãng trong 10 phút, rửa sạch lại với nước và để ráo."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/cach-lam-lau-tu-xuyen_e08a219ccff34d8390ee2ed1555ecc96_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/cach-lam-lau-tu-xuyen_e08a219ccff34d8390ee2ed1555ecc96_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Sơ chế sạch các nguyên liệu để nấu **lẩu Tứ Xuyên Trung Hoa***"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": null,
+      "align": "justify",
+      "markdown": "### **Chế biến & hoàn thiện**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Chế biến nước dùng**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Bắc một nồi lớn lên bếp, cho vào xương heo và xương gà cùng 2 - 3 lít nước. Đậy vung và ninh xương trong 1 tiếng 30 phút."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Lấy xương ra khỏi nồi, dùng rây lọc qua nước dùng. Rửa sạch nồi và đổ lại khoảng 2,5 lít nước dùng đã lọc vào nồi."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/cong-thuc-lau-tu-xuyen_d348b5b884504a2a886336d19d341b30_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/cong-thuc-lau-tu-xuyen_d348b5b884504a2a886336d19d341b30_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Ninh xương giúp nước dùng có độ béo ngọt tự nhiên*"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "***Xem thêm:**** Cách làm *[***thịt kho Tàu ***](https://pato.com.vn/blogs/am-thuc-trung-hoa/cach-lam-thit-kho-tau-vua-ngon-vua-dep-mat-cho-cac-dau-bep-tai-gia)*vừa đơn giản vừa ngon như ngoài quán*"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Chế biến gia vị lẩu**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Chuẩn bị 1 bát tô sạch, cho vào tô 1 thìa cà phê tiêu tứ xuyên, 3 quế cây, 3 bông đại hồi, 1 thìa canh ớt khô, 2 thìa cà phê ớt bột quế, 2 thìa canh tương Tứ Xuyên rồi trộn đều."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Bắc chảo lên bếp làm nóng cùng với 4 thìa canh dầu ăn, cho ½  tỏi và hành tím vào phi. Khi hành và tỏi bắt đầu ngả màu hơi vàng thì vớt ra bát để riêng."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/cach-nau-lau-tu-xuyen_11d4b45464c84b749a2fa6d12100dc99_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/cach-nau-lau-tu-xuyen_11d4b45464c84b749a2fa6d12100dc99_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "Chuẩn bị nguyên liệu gia vị dùng để nấu lẩu"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Chế biến sốt Tứ Xuyên**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Tiếp tục dùng chảo đấy, cho ½ phần hành tím và tỏi còn lại vào phi thơm, cho thêm phần gia vị lẩu đã trộn ở trên vào và đảo nhẹ. Đảo đến khi gia vị dậy mùi thơm thì đổ phần gia vị vào nồi nước dùng đã chuẩn bị sẵn."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Chuẩn bị 1 thìa cà phê muối, 2 thìa cà phê mì chính, 1 thìa cà phê đường phèn, 1 thìa canh tương ớt, trộn đều hỗn hợp và đổ vào nồi lẩu cùng các nguyên liệu."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/cach-lam-lau-tu-xuyen-trung-hoa_c3734f755e094f87a760eea866575119_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/cach-lam-lau-tu-xuyen-trung-hoa_c3734f755e094f87a760eea866575119_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Chế biến sốt Tứ Xuyên đặc trưng và cho vào nồi nước lẩu*"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "***Xem thêm: ****2 công thức chuẩn nấu món *[***đậu hũ Tứ Xuyên***](https://pato.com.vn/blogs/am-thuc-trung-hoa/2-cong-thuc-chuan-nau-dau-hu-tu-xuyen-thom-ngon-hap-dan)* trứ danh*"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Chế biến nước chấm**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Cho vào 1 chiếc tô sạch 2 thìa canh bơ đậu phộng, 2 thìa canh giấm Catchup, 1,5 thìa canh tương tương mè, 1,5 thìa canh sữa đặc, 1 chén sữa tươi béo Carnation, 1 thìa cà phê muối và 1 chén nước dùng xương hầm rồi khuấy đều."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/cach-nau-lau-tu-xuyen-trung-hoa_c13918738c7f4a56ad456710f65e79c0_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/cach-nau-lau-tu-xuyen-trung-hoa_c13918738c7f4a56ad456710f65e79c0_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Công thức pha nước chấm đặc biệt cho món*** lẩu Tứ Xuyên**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Bắc nồi lên bếp và bật lửa nhỏ, cho phần hỗn hợp nước chấm vào và khuấy đều tay. Nấu đến khi hỗn hợp sôi và hơi sệt thì có thể tắt bếp và múc ra bát."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Hoàn thiện**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Đổ toàn bộ phần nước dùng đã chế biến vào một nồi lẩu bắc lên bếp ga mini, thêm vào 1 thìa canh dầu ớt, 2 thìa canh giấm đỏ, 1 thìa canh rượu hoa tiêu, hành tỏi phi vàng, 1 thìa canh mè rang và khuấy đều các nguyên liệu với nhau."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Xếp thịt ba chỉ, mực ống, tôm sú, đậu hũ ra cùng các loại rau và nấm ăn kèm ra đĩa, Món lẩu Tứ Xuyên thưởng thức bằng cách nhúng các nguyên liệu ăn kèm vào nồi nước lẩu, đợi chín thì vớt ra và chấm với công thức nước chấm đã được pha sẵn."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/lau-tu-xuyen-trung-hoa_20773c4ed3c043608797a825957cb7ae_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/lau-tu-xuyen-trung-hoa_20773c4ed3c043608797a825957cb7ae_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Hoàn thiện các bước cuối cùng của món*** lẩu Tứ Xuyên*** thơm ngon hấp dẫn*"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "***Xem thêm: ****Tìm hiểu 8*[*** đại trường phái ẩm thực Trung Hoa***](https://pato.com.vn/blogs/am-thuc-trung-hoa/truong-phai-am-thuc-trung-hoa)* trứ danh *"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Vậy là PATO đã cùng bạn hoàn thành xong nồi lẩu Tứ Xuyên hấp dẫn thơm ngon chuẩn hương vị người Hoa. Hãy theo dõi [**PATO**](https://pato.com.vn/) để cập nhật thêm nhiều công thức thông tin bổ ích về [**ẩm thực Trung Hoa**](https://pato.com.vn/blogs/am-thuc-trung-hoa). Ngoài ra PATO còn giúp bạn trải nghiệm thêm với top những [**nhà hàng Trung Hoa** ](https://pato.com.vn/blogs/am-thuc-trung-hoa/nha-hang-trung-tai-ha-noi)chất lượng cùng giá cả hợp lý, liên hệ [**1900.2280**](tel:1900.2280) để đặt bàn ngay."
+    }
+  ],
+  "related_articles": {
+    "title": "Các bài viết liên quan",
+    "items": [
+      {
+        "title": "Những món ăn truyền thống của Nhật Bản độc đáo nổi tiếng thế giới",
+        "url": "/blogs/am-thuc-a-au/nhung-mon-an-truyen-thong-cua-nhat-ban"
+      },
+      {
+        "title": "Hướng dẫn cách làm gỏi đu đủ Thái chua ngọt đơn giản tại nhà",
+        "url": "/blogs/am-thuc-a-au/cach-lam-goi-du-du-thai-don-gian"
+      },
+      {
+        "title": "Những món ăn ngon của ẩm thực đường phố Hàn Quốc bạn nên thử qua!",
+        "url": "/blogs/am-thuc-a-au/nhung-mon-an-ngon-cua-am-thuc-duong-pho-han-quoc"
+      },
+      {
+        "title": "Thử ngay 8 món đồ ăn Trung Quốc ngon nhất xứ Trung Hoa",
+        "url": "/blogs/am-thuc-a-au/thu-ngay-8-mon-do-an-trung-quoc-ngon-nhat-xu-trung-hoa"
+      },
+      {
+        "title": "Cuối tuần với 2 công thức lẩu Thái chua cay hấp dẫn tại nhà",
+        "url": "/blogs/am-thuc-a-au/cuoi-tuan-voi-2-cong-thuc-lau-thai-chua-cay-hap-dan-tai-nha"
+      },
+      {
+        "title": "Trổ tài vào bếp với món bánh Samosa Ấn Độ đơn giản dễ làm",
+        "url": "/blogs/am-thuc-a-au/tro-tai-vao-bep-voi-mon-banh-samosa-an-do-don-gian-de-lam"
+      }
+    ]
+  }
+}
