@@ -1,0 +1,382 @@
+{
+  "slug": "cach-lam-muc-xao-dua-chua-la-mieng-don-gian-tai-nha",
+  "title": "Bỏ túi cách làm mực xào dưa chua lạ miệng, đơn giản tại nhà",
+  "date": "23/08/22",
+  "blocks": [
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/anh_bia__2__e1ec8ad5349b4aefbf9e988a5ec74c8f_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/anh_bia__2__e1ec8ad5349b4aefbf9e988a5ec74c8f_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Mực xào** là một trong những món ăn phổ biến trong mâm cơm gia đình Việt. Để bữa cơm thêm phần ngon miệng và mới lạ, hãy theo dõi bài viết [**PATO**](https://pato.com.vn/) chia sẻ dưới đây để học cách làm món ***mực xào dưa*** chua thơm ngon và bổ dưỡng."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Nguyên liệu làm mực xào dưa**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Mực ống: 300 gr"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Dưa cải: 2 cây (khoảng 200gr)"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Cà chua: 1 quả"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Rau ngổ: 2 nhánh"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Ngò gai: 1 nhánh"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Hành tím: 1 củ"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Tỏi: 2 tép"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Ớt sừng: 1 quả"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Dầu ăn: 1.5 muỗng canh"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Nước mắm: 1 muỗng cà phê"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Các gia vị thông dụng khác: Muối/hạt nêm/đường/bột ngọt"
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/nguyen-lieu-lam-muc-xao-dua_464c3ce8274f4e5ab3721d2036344e1a_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/nguyen-lieu-lam-muc-xao-dua_464c3ce8274f4e5ab3721d2036344e1a_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Nguyên liệu làm món dưa chua xào mực*"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Cách chọn mua nguyên liệu làm mực xào dưa**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Cách chọn mua mực tươi ngon, chuẩn nhất**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Để chế biến món ***mực xào dưa*** ngon, bạn cần lưu ý một số điều dưới đây khi chọn mua mực tươi:"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Mực tươi thường có màu sắc sáng bóng. Phần có màu nâu sẽ nâu sẫm, còn phần thân mực sẽ có màu trắng đục như sữa."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Khi sờ tay vào thân mực, chúng ta sẽ cảm nhận được phần thịt mực săn chắc và có độ đàn hồi cao."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Đối với mực tươi, màu của mắt mực sẽ trong veo, không bị lồi ra ngoài. Mực không tươi thì phần mắt sẽ chuyển sang màu đục hơn và đôi khi có dịch chảy ra."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Mực tươi có phần đầu và các xúc tu, râu mực sẽ dính chặt vào nhau, chắc chắn. Mực không tươi thì các phần trên thường mềm nhũn và dễ bị tách rời."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/cach-chon-mua-muc-ong-tuoi_36ba9b0a57fc4f0da22f07dc94be8b1d_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/cach-chon-mua-muc-ong-tuoi_36ba9b0a57fc4f0da22f07dc94be8b1d_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Cách chọn mua mực ống tươi đúng chuẩn *"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Cách chọn mua dưa chua** **ngon, sạch **"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Ngoài mực, khi lựa chọn dưa chua chúng ta cũng cần lưu ý một số điều như:"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Chọn mua dưa cải tại những địa chỉ uy tín, để đảm bảo chất lượng dưa cải được tốt nhất."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Đối với loại đã được đóng gói cần phải kiểm tra hạn sử dụng, đảm bảo phần bao bì còn nguyên vẹn, quan sát không thấy nổi mốc, váng bọt."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Nên chọn mua dưa cải có màu vàng đến màu vàng đất, vì những dưa cải này mới đủ độ chua để chế biến món ăn. Còn dưa cải có màu xanh là do muối chua chưa đủ ngày, khi ăn sẽ có vị cay the."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Bên cạnh đó, để đảm bảo chất lượng an toàn vệ sinh thực phẩm, bạn có thể tự muối dưa cải tại nhà."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/cach-chon-mua-dua-chua_4ee6eee896e948f6a4154723795f61df_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/cach-chon-mua-dua-chua_4ee6eee896e948f6a4154723795f61df_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Cách chọn mua dưa chua ngon - sạch*"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "***Xem thêm: ***[***Tổng hợp 15 cách làm mực khô xào đơn giản, thơm ngon, hấp dẫn ***](https://pato.com.vn/blogs/hai-san/15-cach-lam-muc-kho-xao-don-gian-thom-ngon-hap-dan)"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Cách chọn mua cà chua ngon**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Nên chọn cà chua có phần vỏ ngoài láng mịn, căng mọng nước, thường có màu đỏ tươi, cuống vẫn còn xanh."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Không chọn mua những quả bị thâm đen hay có đốm nhỏ màu đen, có màu không đều vừa xanh, vừa đỏ."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Dùng tay chạm vào thấy quả quá mềm hoặc quá cứng, có nước chảy ra thì không nên mua, vì có thể chúng đã bị hỏng."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/cach-chon-mua-ca-chua_5b72dd483e494f30aff9a1c59b05c4a2_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/cach-chon-mua-ca-chua_5b72dd483e494f30aff9a1c59b05c4a2_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Cách chọn mua cà chua *"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Cách làm mực xào dưa thơm ngon, đúng chuẩn**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 1: Sơ chế mực và các nguyên liệu khác **"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Mực ống sau khi mua về, dùng dao cắt dọc thân mực rồi rút nang mực ra ngoài."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Tiếp đến, loại bỏ phần mắt và răng trong râu mực, sau đó lột da và tiến hành rửa mực với nước muối loãng từ 2 - 3 lần, rồi rửa lại với nước sạch và để ráo nước."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Bắc 1 chảo nước lên bếp và đun sôi. Cho mực đã sơ chế vào và chần sơ qua khoảng 3 phút để loại bỏ bớt mùi tanh rồi vớt ra, rửa lại 2 - 3 lần dưới vòi nước chảy mạnh và để ráo."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Mực sau khi đã để ráo thì cắt xéo theo chiều ngang thành miếng vừa ăn."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Đối với các nguyên liệu khác:"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Dưa cải tách ra, bỏ bớt phần lá và rửa sạch với nước cho giảm độ chua rồi để ráo. Sau đó, cắt thành miếng vừa ăn."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Cà chua rửa sạch để ráo, cắt múi cau."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Các loại rau: ngò gai, rau ngổ tiến hành rửa sạch, để ráo và cắt nhỏ."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "- Hành tím bóc vỏ và cắt thành lát mỏng, ớt sừng bỏ hạt, cắt lát mỏng. Tỏi bóc vỏ, băm nhuyễn."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/cach-lam-mon-muc-xao-dua-chua_77a2cf421dfb4ac69a1f4f3a09568b95_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/cach-lam-mon-muc-xao-dua-chua_77a2cf421dfb4ac69a1f4f3a09568b95_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Cách làm món **mực xào dưa **chua chuẩn vị *"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 2: Thực hiện làm món dưa chua xào mực**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Bắc chảo lên bếp và cho vào chảo 1 muỗng canh dầu ăn. Đợi dầu ăn nóng thì cho tỏi băm nhuyễn vào và phi thơm."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Khi tỏi vàng, thơm, đổ mực đã ướp vào xào đều tay trên lửa lớn trong khoảng thời gian 5 phút đến khi mực chín và dậy mùi thơm thì múc ra dĩa."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Bắc chảo lên bếp và cho vào chảo 1/2 muỗng canh dầu ăn. Đợi dầu nóng thì cho hành tím cắt lát vào phi thơm."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Khi hành đã vàng, thơm, cho ớt sừng cắt lát vào, đảo đều. Tiếp đến, cho dưa cải đã sơ chế vào xào đều tay trên lửa lớn trong khoảng 3 phút đến khi dưa mềm và săn lại."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Sau đó, cho cà chua cùng mực đã xào vào chảo, trộn và xào đều tay thêm khoảng 5 phút, đến khi các nguyên liệu đã chín thì nêm 1/2 muỗng cà phê bột ngọt, 1 muỗng cà phê hạt nêm, 1 muỗng cà phê đường, 1 muỗng cà phê nước mắm."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Xào thêm ~ 2 phút rồi nêm nếm lại cho vừa ăn. Cho ngò gai, rau ngổ đã cắt nhỏ vào, đảo đều lại một lần nữa là hoàn thành món."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Thành phẩm dưa chua xào mực hấp dẫn**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "***Mực xào dưa*** cải sau khi hoàn thành sẽ có màu sắc bắt mắt hòa quyện với mùi hương hấp dẫn. Miếng mực giòn, ngọt kết hợp với vị chua dịu của dưa cải, xen lẫn vị cay cay của ớt tạo nên món ăn lạ miệng, rất đưa cơm."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](//file.hstatic.net/1000275435/file/thanh-pham-muc-xao-dua-chua_2db827ddd81f4d429c4e52ae9d05ef30_grande.jpg)",
+      "src": "//file.hstatic.net/1000275435/file/thanh-pham-muc-xao-dua-chua_2db827ddd81f4d429c4e52ae9d05ef30_grande.jpg"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Thành phẩm dưa chua xào mực thơm ngon, hấp dẫn *"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "***Xem thêm: ***[***4 cách làm mực xào rau củ tươi ngon, thơm ngọt đậm vị ***](https://pato.com.vn/blogs/hai-san/4-cach-lam-muc-xao-rau-cu-tuoi-ngon-thom-ngot-dam-vi)"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "[***3 cách làm mực xào chua ngọt đơn giản, ăn là mê***](https://pato.com.vn/blogs/hai-san/3-cach-lam-muc-xao-chua-ngot-don-gian-an-la-me)"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Như vậy, bài viết trên đã chia sẻ chi tiết cách làm **mực xào** dưa tại nhà. Chúc bạn áp dụng thành công và có thêm một món hải sản hấp dẫn để cùng cả nhà thưởng thức. Cập nhật tin tức ẩm thực thú vị và cách chế biến món ăn hấp dẫn mỗi ngày tại [**BLOG PATO**](https://pato.com.vn/)."
+    }
+  ],
+  "related_articles": {
+    "title": "Các bài viết liên quan",
+    "items": [
+      {
+        "title": "‘Đổi gió’ với 3 công thức mực xào nấm, giá và lá lốt cực hấp dẫn",
+        "url": "/blogs/hai-san/3-cong-thuc-muc-xao-nam-gia-va-la-lot-cuc-hap-dan"
+      },
+      {
+        "title": "3 cách làm mực xào măng và mực xào mướp lạ miệng bạn nên thử",
+        "url": "/blogs/hai-san/3-cach-lam-muc-xao-mang-va-muc-xao-muop"
+      },
+      {
+        "title": "2 công thức mực xào sa tế, mực xào sả ớt cho tín đồ ăn cay",
+        "url": "/blogs/hai-san/2-cong-thuc-muc-xao-sa-te-muc-xao-sa-ot"
+      },
+      {
+        "title": "2 cách làm mực xào thập cẩm giòn dai, hấp dẫn",
+        "url": "/blogs/hai-san/2-cach-lam-muc-xao-thap-cam-gion-dai-hap-dan"
+      },
+      {
+        "title": "2 cách làm mực xào tươi ngon, đơn giản tại nhà",
+        "url": "/blogs/hai-san/2-cach-lam-muc-xao-tuoi-ngon-don-gian-tai-nha"
+      }
+    ]
+  }
+}

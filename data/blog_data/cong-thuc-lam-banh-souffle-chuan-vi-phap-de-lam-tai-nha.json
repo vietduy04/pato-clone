@@ -1,0 +1,250 @@
+{
+  "slug": "cong-thuc-lam-banh-souffle-chuan-vi-phap-de-lam-tai-nha",
+  "title": "Công thức làm bánh Souffle chuẩn vị Pháp dễ làm tại nhà",
+  "date": "01/05/25",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Bánh Soufflé được đánh giá là một tuyệt phẩm ẩm thực đến từ Pháp, không chỉ nổi tiếng bởi độ bông xốp, mềm mịn mà còn bởi cảm giác tan chảy nhẹ nhàng nơi đầu lưỡi. Tưởng chừng chỉ có thể tìm thấy trong các nhà hàng cao cấp, nhưng thật ra bạn hoàn toàn có thể làm bánh Soufflé ngay tại nhà với công thức chuẩn và vài nguyên liệu đơn giản **Pato** mách bạn trong bài viết dưới đây nhé!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Lý do bánh Souffle được yêu thích**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Không phải ngẫu nhiên mà bánh Soufflé lại được xem là biểu tượng của sự tinh tế trong thế giới bánh ngọt. Với lớp vỏ ngoài vàng ươm, nhẹ xốp như mây và phần nhân mềm mại tan chảy trong miệng, món bánh này không chỉ là một món tráng miệng mà còn là một trải nghiệm ẩm thực đầy quyến rũ. Soufflé đặc biệt hấp dẫn bởi độ “nở bồng bềnh” khi nướng, tạo cảm giác nhẹ nhàng và thanh thoát trong từng muỗng bánh."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdpaT3Ewg707CeyxTtaiih2C98YKVAUHEH5JthZEqTM6pdaqhKPEhO1U7gIagDs5157HAtll8WfOdXFN8_yyRh8-jnGhoVOSjmybm6SUimeT6EM67FrXK7aV3XwMh2Aer2LIUhlgw?key=DS7Ueuk1NP0WJb9QCqEGBzuO)",
+      "src": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdpaT3Ewg707CeyxTtaiih2C98YKVAUHEH5JthZEqTM6pdaqhKPEhO1U7gIagDs5157HAtll8WfOdXFN8_yyRh8-jnGhoVOSjmybm6SUimeT6EM67FrXK7aV3XwMh2Aer2LIUhlgw?key=DS7Ueuk1NP0WJb9QCqEGBzuO"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Bánh Soufflé chuẩn vị sẽ có kết cấu mềm mịn, nhẹ xốp hấp dẫn*"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Người yêu bánh còn bị mê hoặc bởi khả năng biến hóa đa dạng của món này. Bạn có thể thử souffle vị chocolate đậm đà, chanh thanh mát hay vani dịu nhẹ, tất cả đều dễ dàng chinh phục khẩu vị người thưởng thức. Ngoài ra, đây cũng là một món bánh có thể làm ngay tại nhà mà không cần lò nướng chuyên nghiệp, chỉ cần nắm đúng kỹ thuật đánh bông lòng trắng trứng là bạn đã có thể tạo ra chiếc bánh souffle chuẩn vị Pháp."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Nguyên liệu cần chuẩn bị để làm bánh Souffle tại nhà**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Để tạo nên chiếc bánh Soufflé chuẩn vị Pháp ngay tại căn bếp của bạn, điều quan trọng là chuẩn bị đầy đủ các nguyên liệu chất lượng, tươi mới. Mặc dù danh sách nguyên liệu không dài, nhưng mỗi thành phần đều góp phần tạo nên kết cấu mềm mịn và hương vị tinh tế đặc trưng cho món bánh này."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- **Lòng đỏ trứng gà: **3 quả - giúp tạo độ béo mịn cho phần đế bánh."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- **Lòng trắng trứng gà:** 3 quả - đánh bông tạo độ nở xốp cho bánh Soufflé."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- **Đường trắng mịn:** 60g - nên chọn đường hạt nhỏ để dễ tan và giữ kết cấu ổn định."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- **[Sữa tươi không đường](https://s.shopee.vn/2LNNrHxdMz): **180ml - nền chất lỏng cho phần nhân."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- **Bột mì đa dụng:** 20g - tạo độ sánh vừa phải cho hỗn hợp sữa trứng."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- **Bơ lạt: **20g - giúp hỗn hợp thêm thơm ngậy và mượt mà."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- **Tinh chất vani:** 1 thìa cà phê - tăng hương thơm dịu nhẹ cho bánh."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- **Đường bột (tùy chọn):** dùng để rắc lên mặt bánh sau khi nướng."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- **[Khuôn ramekin](https://s.shopee.vn/6KtWcg8Ce7): **4-5 khuôn nhỏ chuyên dụng cho souffle."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeYUe7P7dCxTz_G42KSW8N7qlB8KEMCIriMEc10d8sCgxF9nUA4oeyTjthDehTPs-YTylU31CfRzgzhBHFspKwaFCS8Xv9mr-5zJajb6qvql9FzMRV_qBlk5rvFjn6c0yPoLiAc_w?key=DS7Ueuk1NP0WJb9QCqEGBzuO)",
+      "src": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeYUe7P7dCxTz_G42KSW8N7qlB8KEMCIriMEc10d8sCgxF9nUA4oeyTjthDehTPs-YTylU31CfRzgzhBHFspKwaFCS8Xv9mr-5zJajb6qvql9FzMRV_qBlk5rvFjn6c0yPoLiAc_w?key=DS7Ueuk1NP0WJb9QCqEGBzuO"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Chính sự tỉ mỉ trong khâu chuẩn bị nguyên liệu sẽ quyết định độ mềm xốp đặc trưng của bánh Soufflé*"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Các bước làm bánh Souffle siêu đơn giản**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Không cần đến Pháp, bạn vẫn có thể tự tay tạo ra chiếc bánh Soufflé mềm mịn, bồng bềnh chuẩn vị tại nhà. Với công thức đơn giản của **[Pato.com.vn](http://pato.com.vn)**, dễ làm và nguyên liệu dễ kiếm, đây sẽ là món tráng miệng lý tưởng để “đổi gió” cho bữa ăn gia đình hay buổi trà chiều sang chảnh."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcnrr6ihELdlgMV2nDgqYYrDbLd7gxJl2jERb0n4qE1JC7RlDZPvbB-GemfMBqzCdweGBIkqoqUidZ6FjXK9-3U7quc3qcxoTptpktKAjZmO13lUyCazzlDnWVWASTqGHz7DMPpeg?key=DS7Ueuk1NP0WJb9QCqEGBzuO)",
+      "src": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcnrr6ihELdlgMV2nDgqYYrDbLd7gxJl2jERb0n4qE1JC7RlDZPvbB-GemfMBqzCdweGBIkqoqUidZ6FjXK9-3U7quc3qcxoTptpktKAjZmO13lUyCazzlDnWVWASTqGHz7DMPpeg?key=DS7Ueuk1NP0WJb9QCqEGBzuO"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Soufflé không chỉ là một món bánh, mà là nghệ thuật của sự tinh tế trong từng lớp bọt trứng*"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 1: Chuẩn bị khuôn và làm nóng lò**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Làm nóng lò nướng ở 190°C (chế độ 2 lửa). Trong lúc chờ lò nóng, thoa một lớp bơ mỏng lên khuôn ramekin, sau đó rắc nhẹ một ít đường vào khuôn để bánh không bị dính và dễ nở đều."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 2: Nấu phần nhân sữa trứng**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Cho bơ lạt vào nồi, đun chảy ở lửa nhỏ. Tiếp đến, cho bột mì vào, khuấy đều cho đến khi hỗn hợp sánh lại (khoảng 1 phút)."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Đổ từ từ sữa tươi vào, khuấy liên tục để không bị vón cục. Khi hỗn hợp mịn, nhấc khỏi bếp và để nguội khoảng 2 phút. Sau đó, cho lòng đỏ trứng vào, khuấy đều. Thêm vani vào, khuấy đều lần cuối."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 3: Đánh bông lòng trắng trứng**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Cho lòng trắng trứng vào tô lớn, dùng máy đánh trứng đánh ở tốc độ thấp đến khi nổi bọt lớn."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Cho 1/3 lượng đường vào, tăng dần tốc độ và tiếp tục đánh. Chia phần đường còn lại thành 2 lần và đánh đến khi lòng trắng bông cứng, nhấc que đánh lên thấy chóp đứng nhưng vẫn mềm mượt là đạt."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 4: Trộn hỗn hợp**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Múc 1/3 lòng trắng trứng đã đánh bông vào hỗn hợp sữa trứng, trộn nhẹ nhàng để làm lỏng hỗn hợp."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Tiếp tục cho phần lòng trắng còn lại vào, trộn theo kiểu fold (hất từ dưới lên) để không làm vỡ bọt khí, đây là bí quyết giúp Soufflé nở đẹp."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 5: Nướng bánh**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Đổ hỗn hợp vào khuôn ramekin đã chuẩn bị, chừa lại khoảng 0.5cm miệng khuôn."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Dùng khăn sạch lau viền miệng khuôn để mặt bánh nở thẳng đứng, không bị nghiêng."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Đặt khuôn vào khay và nướng trong khoảng 12–15 phút ở 190°C cho đến khi bánh nở cao và vàng đều mặt."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 6: Thưởng thức**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Rắc nhẹ chút đường bột lên mặt bánh khi bánh còn nóng để tăng thêm phần hấp dẫn. Soufflé ngon nhất khi ăn ngay lúc vừa ra lò, xốp nhẹ như mây và tan ngay trong miệng."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Bánh Soufflé không chỉ là một món tráng miệng thơm ngon, nhẹ nhàng mà còn là biểu tượng của sự tinh tế trong nghệ thuật làm bánh. Chỉ với vài nguyên liệu và chút kiên nhẫn, bạn đã có thể tự tay làm nên chiếc bánh mềm xốp, ngọt dịu đúng chuẩn Pháp. Đừng quên ghé **Pato** mỗi ngày để cập nhật thêm nhiều công thức bánh chuẩn vị, dễ làm tại nhà giúp bạn tự tin hơn trong gian bếp!"
+    }
+  ],
+  "related_articles": {
+    "title": "Các bài viết liên quan",
+    "items": [
+      {
+        "title": "Khám Phá Thiên Đường Gà Ngon Hà Nội – Từ Truyền Thống Đến Hiện Đại",
+        "url": "/blogs/huong-dan/kham-pha-thien-duong-ga-ngon-ha-noi-tu-truyen-thong-den-hien-dai"
+      },
+      {
+        "title": "Khám Phá Thiên Đường Buffet Linh Đàm – Ăn \"Sập\" Các Tọa Độ Ngon Quên Lối Về",
+        "url": "/blogs/huong-dan/kham-pha-thien-duong-buffet-linh-dam-an-sap-cac-toa-do-ngon-quen-l"
+      },
+      {
+        "title": "Khám phá Ẩm thực Sân Vườn Mái Lá Quận 7 – Không gian xanh giữa lòng phố thị",
+        "url": "/blogs/huong-dan/https-pato-com-vn-blogs-huong-dan-kham-pha-am-thuc-san-vuon-mai-la-quan-7"
+      },
+      {
+        "title": "Khám phá khu ẩm thực phong phú tại Aeon Mall Xuân Thủy - 5 quán ăn không thể bỏ lỡ",
+        "url": "/blogs/huong-dan/kham-pha-khu-am-thuc-phong-phu-tai-aeon-mall-xuan-thuy-5-quan-an-kho"
+      },
+      {
+        "title": "Bách Hợp Quán - Buffet Lẩu Nướng Đậm Vị Được Dân Văn Phòng Săn Lùng",
+        "url": "/blogs/huong-dan/bach-hop-quan-buffet-lau-nuong-dam-vi-duoc-dan-van-phong-san-lung"
+      },
+      {
+        "title": "Maison Sen Buffet - Trải nghiệm ẩm thực Á Âu đỉnh cao tại Trần Hưng Đạo",
+        "url": "/blogs/huong-dan/maison-sen-buffet-trai-nghiem-am-thuc-a-au-dinh-cao-tai-tran-hung-da"
+      }
+    ]
+  }
+}

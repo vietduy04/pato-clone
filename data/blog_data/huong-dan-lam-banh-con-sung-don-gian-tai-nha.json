@@ -1,0 +1,285 @@
+{
+  "slug": "huong-dan-lam-banh-con-sung-don-gian-tai-nha",
+  "title": "Hướng dẫn làm bánh con sùng ( bánh con đuông) đơn giản tại nhà",
+  "date": "15/05/25",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Trong thế giới bánh trái dân dã của người Việt, có một món bánh không chỉ độc đáo từ hình dáng đến cái tên mà còn mang đậm bản sắc miền Tây: bánh con sùng, hay còn gọi vui là bánh con đuông. Với lớp vỏ bột dẻo mịn, thơm nhẹ vị nước cốt dừa và nhân đậu xanh ngọt bùi, món bánh này luôn khiến người ăn thích thú ngay từ lần đầu nếm thử. Nếu bạn đang tìm một món bánh lạ miệng, dễ làm để thử sức trong bếp, hãy cùng khám phá** hướng dẫn làm bánh con sùng đơn giản tại nhà** ngay dưới đây nhé!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Bánh con sùng xuất xứ từ miền nào?**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Bánh con sùng là món bánh truyền thống có nguồn gốc từ miền Tây Nam Bộ, đặc biệt phổ biến ở các tỉnh như Bến Tre, Vĩnh Long và Trà Vinh. Cái tên \"con sùng\" bắt nguồn từ hình dáng uốn lượn mềm mại của chiếc bánh, trông như những chú đuông dừa, loài ấu trùng đặc sản miền Tây. Tuy tên gọi có phần gây tò mò, nhưng thực chất đây là một món bánh thuần chay, thơm ngọt và vô cùng dễ ăn."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Không chỉ là món bánh tuổi thơ của nhiều thế hệ, bánh con sùng còn thường xuất hiện trong các dịp cúng giỗ, lễ Tết hoặc đơn giản là bữa xế chiều sum vầy bên gia đình."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe67LrSL7-DFWBEJq-b_PlCYKTxaVx6eTLfZiLpAVROsGdsX3n4DD_1pf4ul010Q5toT8DClF1oPCNoTYBXCx-q0SLoKWRw2dCLI8jCZpAjZWnUJZHohZZP7V9jrO9cYVgxWcDBAQ?key=nb8Xy7EezvZl-xyP-b4aeQ)",
+      "src": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXe67LrSL7-DFWBEJq-b_PlCYKTxaVx6eTLfZiLpAVROsGdsX3n4DD_1pf4ul010Q5toT8DClF1oPCNoTYBXCx-q0SLoKWRw2dCLI8jCZpAjZWnUJZHohZZP7V9jrO9cYVgxWcDBAQ?key=nb8Xy7EezvZl-xyP-b4aeQ"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Dẻo thơm một miếng bánh con sùng, cả miền Tây thu nhỏ trong lòng bàn tay*"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Nguyên liệu làm bánh con sùng **"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Để bắt đầu với hướng dẫn làm bánh con sùng đơn giản tại nhà cùng** [Pato](https://pato.com.vn/)**, bạn không cần chuẩn bị gì cầu kỳ. Tất cả nguyên liệu đều vô cùng quen thuộc trong căn bếp Việt, nhưng khi kết hợp lại sẽ tạo nên món bánh vừa dân dã vừa hấp dẫn."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Bột năng - 270g: Đây là thành phần chính giúp tạo nên độ dẻo mềm đặc trưng cho phần vỏ bánh."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Bột mì - 30g: Giúp cân bằng kết cấu, làm cho bánh mềm và xốp hơn sau khi nướng hoặc hấp."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Bột nổi - 3g: Giúp bánh nở nhẹ, tạo độ mềm mịn và không bị đặc bột."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Đường cát trắng - 100g: Tạo vị ngọt thanh, vừa miệng cho phần nhân hoặc vỏ bánh."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Nước cốt dừa - 100ml: Tăng độ béo, hương thơm hấp dẫn và giúp bột thêm dẻo mịn."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Dầu dừa - 200g: Làm bánh thơm béo đặc trưng, đồng thời giúp vỏ bánh không bị khô khi nướng."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Muối - 1/4 thìa cà phê: Dù chỉ là một chút nhưng giúp cân bằng vị ngọt, đồng thời làm nổi bật vị bùi của nguyên liệu khác."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Lá chuối (hoặc giấy nến): Dùng để lót khi hấp bánh, giúp bánh không bị dính và giữ được hình dáng đẹp."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Dầu ăn - một ít: Dùng để thoa tay khi tạo hình bánh, tránh bị dính bột vào tay."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Thực phẩm tạo màu tự nhiên: **[Như lá dứa (màu xanh)](https://s.shopee.vn/6VCyLWkx9K)**, củ dền (màu hồng), giúp bánh thêm bắt mắt mà vẫn an toàn cho sức khỏe."
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeAY4lqo1ywfI2udJkME2RB4uKL4E4qVP9ychR_sX61TRly0-JKx7d8VVUH67PZKPEsF4KncQsD2UIUsKn05cqfhlYL5Uzcd6ig9sx_ZUclfD_E-VReWDrLjUSV3cRdTZZSQr08kg?key=nb8Xy7EezvZl-xyP-b4aeQ)",
+      "src": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeAY4lqo1ywfI2udJkME2RB4uKL4E4qVP9ychR_sX61TRly0-JKx7d8VVUH67PZKPEsF4KncQsD2UIUsKn05cqfhlYL5Uzcd6ig9sx_ZUclfD_E-VReWDrLjUSV3cRdTZZSQr08kg?key=nb8Xy7EezvZl-xyP-b4aeQ"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Nguyên liệu dân dã cùng hương vị đậm đà, khiến bánh con sùng không chỉ là món ăn, mà còn là kỷ niệm gắn bó với các thế hệ trẻ Việt Nam*"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": null,
+      "align": "justify",
+      "markdown": "## **Hướng dẫn làm bánh con sùng thành công ngay từ lần đầu**"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Với hình dáng dễ thương, màu sắc bắt mắt và hương vị thơm bùi béo ngậy, bánh con sùng là món ăn vặt được rất nhiều người yêu thích, đặc biệt là trẻ nhỏ. Hãy cùng **Pato **bắt tay vào thực hiện món bánh đáng yêu này qua các bước dưới đây nhé!"
+    },
+    {
+      "type": "image",
+      "align": "center",
+      "markdown": "![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd2qLPXu4j9N3bnwHvGvJeJIAKVLJQJ5JAeupfxYccw3Lx2EAGpxGSDUPl59bwWPA_8MgH0iDYddmwcJbXGE6BuGnjjU7ACD7jVXvM0QK9IPwY5PHwnkYYGEDz0ZO-z0Ljua5t-pQ?key=nb8Xy7EezvZl-xyP-b4aeQ)",
+      "src": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXd2qLPXu4j9N3bnwHvGvJeJIAKVLJQJ5JAeupfxYccw3Lx2EAGpxGSDUPl59bwWPA_8MgH0iDYddmwcJbXGE6BuGnjjU7ACD7jVXvM0QK9IPwY5PHwnkYYGEDz0ZO-z0Ljua5t-pQ?key=nb8Xy7EezvZl-xyP-b4aeQ"
+    },
+    {
+      "type": "paragraph",
+      "align": "center",
+      "markdown": "*Bạn có thể ru bé con cùng làm bánh con sùng để các bé có thêm nhiều kỉ niệm tuổi thơ tuyệt vời*"
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 1: Tạo hỗn hợp màu**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Bạn sẽ chuẩn bị khoảng 50gr lá dứa tươi, rửa sạch rồi đem xay cùng với 150 - 200ml nước rồi lọc qua rây để thu được phần nước lá dứa. Bạn cho nước này ra một cái ly rồi để lắng trong khoảng 1 - 2 giờ."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Khi ấy, phần tinh chất lát dứa sẽ lắng xuống đáy ly, bạn cẩn thận rót bớt phần nước loãng bên trên đi để thu được khoảng 50ml nước tinh chất lá dứa."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Củ dền thì bạn sẽ dùng khoảng 1/2 củ, gọt vỏ, rửa sạch rồi cắt miếng nhỏ, sau đó cho vào máy xay xay nhỏ vừa."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Bạn cho hỗn hợp vừa xay vào chảo, cho thêm khoảng 150 - 200ml nước lọc vào, nấu trong 10 - 15 phút cho của dền ra màu đẹp. Bạn tắt bếp, lọc qua rây để thu lấy 50ml nước màu củ dền."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 2: Trộn bột**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Bạn sẽ đong 270gr bột năng, 30gr bột mì, 3gr bột nổi rồi trộn đều và lọc qua rây để bột hòa trộn với nhau."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Tiếp đến, bạn sẽ chia phần bột vừa trộn thành 3 phần đều nhau."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 3: Pha màu bột**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Bạn bắc lên bếp một cái chảo, cho vào chảo 100ml nước cốt dừa, 10ml dầu dừa (khoảng 1 muỗng canh nhỏ), 1 nhúm muối khoảng hạt đậu xanh. Bật bếp đun sôi hỗn hợp."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Khi hỗn hợp sôi thì bạn rót vào hỗn hợp bột thứ nhất, dùng đũa trộn cho hết bột khô rồi nhào bột bằng tay trong 5 - 7 phút cho khối bột dẻo mịn. Bạn bọc lại khối bột và để bột nghỉ trong 30 phút."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Tiếp theo, bạn cho vào chảo 50ml nước sốt dừa, 10ml dầu dừa và 50ml nước tinh chất lá dứa vào, đun sôi. Đổ hỗn hợp sôi vào phần bột thứ 2, dùng phới hoặc đũa trộn đều cho hết bột khô rồi dùng tay nhào bột trong 5 - 7 phút, sau đó bọc lại bằng màng bọc thực phẩm và để bột nghỉ 30 phút."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Tương tự với màu đỏ, bạn cho 50ml nước củ dền, 10ml dầu dừa và 50ml nước cốt dừa vào chảo, đun sôi. Cho hỗn hợp sôi vào bột, trộn đều rồi nhào cho bột thành khối dẻo mịn. Sau đó bọc bột lại bằng màng bọc thực phẩm và để nghỉ trong 30 phút."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 4: Tạo hình bánh con sùng**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Sau khi để bột nghỉ xong thì bạn sẽ lần lượt lấy các khối bột ra, chia thành các phần nhỏ rồi vo sợi dài, cắt thành các viên vừa phải."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Bạn sẽ vo viên bột, đặt lên lòng bàn tay rồi dùng một chiếc lược sạch ve cho viên bột dài ra và tạo thành các đường răng cưa như con sùng. Bạn tiếp tục làm cho đến hết phần bột."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Bột nào chưa dùng tới thì bạn hãy để trong bọc màng thực phẩm để tránh bột bị khô."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 5: Nướng bánh**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Bạn xếp các viên bột đã tạo hình lên khay nướng, nướng ở 130 độ C ở chế độ nướng 2 lửa (2 thanh nhiệt) và quạt đối lưu trong 20 - 30 phút tùy thuộc kích thước bánh bạn tạo hình."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Sau khi nướng xong, bạn sẽ lấy bánh ra để cho bánh nguội tự nhiên ở nhiệt độ phòng. Khi bánh nguội hẳn thì sẽ giòn ngon hơn. Bạn sẽ cho bánh vào túi hoặc **[hộp đựng](https://s.shopee.vn/6KtY9DlaUJ)** để bảo quản."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "**Bước 6: Thành phẩm**"
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Bánh con sùng thành phẩm sẽ có màu vô cùng đẹp mắt. Phần bánh truyền thống sẽ có màu trắng đục, hoặc hơi ngả vàng nhẹ. Màu xanh lá dứa với màu hồng củ dền thì lên màu chuẩn."
+    },
+    {
+      "type": "paragraph",
+      "align": null,
+      "markdown": "- Khi ăn, bạn sẽ cảm thấy vị bánh béo thơm nước cốt dừa, bùi bùi và giòn xốp vô cùng thích miệng."
+    },
+    {
+      "type": "paragraph",
+      "align": "justify",
+      "markdown": "Trên đây là** hướng dẫn làm bánh con sùng ( bánh con đuông) đơn giản tại nhà.** Cùng **Pato** vào bếp và thực hiện ngay món bánh tuổi thơ cho các bé yêu ngay thôi. Đừng quên truy cập pato.com.vn để khám phá thêm các công thức làm bánh thơm ngon, đơn giản tại nhà, bạn nhé!"
+    }
+  ],
+  "related_articles": {
+    "title": "Các bài viết liên quan",
+    "items": [
+      {
+        "title": "Khám Phá Thiên Đường Gà Ngon Hà Nội – Từ Truyền Thống Đến Hiện Đại",
+        "url": "/blogs/huong-dan/kham-pha-thien-duong-ga-ngon-ha-noi-tu-truyen-thong-den-hien-dai"
+      },
+      {
+        "title": "Khám Phá Thiên Đường Buffet Linh Đàm – Ăn \"Sập\" Các Tọa Độ Ngon Quên Lối Về",
+        "url": "/blogs/huong-dan/kham-pha-thien-duong-buffet-linh-dam-an-sap-cac-toa-do-ngon-quen-l"
+      },
+      {
+        "title": "Khám phá Ẩm thực Sân Vườn Mái Lá Quận 7 – Không gian xanh giữa lòng phố thị",
+        "url": "/blogs/huong-dan/https-pato-com-vn-blogs-huong-dan-kham-pha-am-thuc-san-vuon-mai-la-quan-7"
+      },
+      {
+        "title": "Khám phá khu ẩm thực phong phú tại Aeon Mall Xuân Thủy - 5 quán ăn không thể bỏ lỡ",
+        "url": "/blogs/huong-dan/kham-pha-khu-am-thuc-phong-phu-tai-aeon-mall-xuan-thuy-5-quan-an-kho"
+      },
+      {
+        "title": "Bách Hợp Quán - Buffet Lẩu Nướng Đậm Vị Được Dân Văn Phòng Săn Lùng",
+        "url": "/blogs/huong-dan/bach-hop-quan-buffet-lau-nuong-dam-vi-duoc-dan-van-phong-san-lung"
+      },
+      {
+        "title": "Maison Sen Buffet - Trải nghiệm ẩm thực Á Âu đỉnh cao tại Trần Hưng Đạo",
+        "url": "/blogs/huong-dan/maison-sen-buffet-trai-nghiem-am-thuc-a-au-dinh-cao-tai-tran-hung-da"
+      }
+    ]
+  }
+}
