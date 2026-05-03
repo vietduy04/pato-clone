@@ -21,7 +21,7 @@ const useStore = create((set, get) => ({
       locRes.json(),
       colRes.json(),
     ])
-    set({ restaurants, locations, collections, loaded: true, loading: false })
+    set({ restaurants: restaurants.filter(r => r.status === "Đã hợp tác"), locations, collections, loaded: true, loading: false })
   },
 }))
 
