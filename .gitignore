@@ -26,3 +26,4 @@ dist-ssr
 references/
 .claude/
 .env
+CLAUDE.md
