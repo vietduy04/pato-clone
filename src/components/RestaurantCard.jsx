@@ -14,7 +14,8 @@ export default function RestaurantCard({ restaurant }) {
         <Link to={`/products/${r.handle}`} target="_blank">
           <img src={r.thumbnail} alt={r.title} loading="lazy" />
         </Link>
-        <div className="product-item-info">
+      </div>
+      <div className="product-item-info">
           <div className="product-title">
             <Link to={`/products/${r.handle}`} target="_blank">
               {r.title}
@@ -58,7 +59,6 @@ export default function RestaurantCard({ restaurant }) {
             </div>
           )}
         </div>
-      </div>
       {/* <div className="buy-now-product">
         <Link
           className="btn-booking"

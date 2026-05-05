@@ -3,6 +3,74 @@ import { Link, useParams } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb'
 import './BlogPostPage.css'
 
+function slugify(text) {
+  return text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/đ/g, 'd')
+    .replace(/[^a-z0-9\s-]/g, '')
+    .trim()
+    .replace(/\s+/g, '-')
+}
+
+function stripInlineMarkdown(text) {
+  return text
+    .replace(/\*\*\*(.+?)\*\*\*/g, '$1')
+    .replace(/\*\*(.+?)\*\*/g, '$1')
+    .replace(/\*(.+?)\*/g, '$1')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+}
+
+function TableOfContents({ blocks }) {
+  const [visible, setVisible] = useState(true)
+  const headings = blocks.filter(b => b.type === 'heading' && b.level === 2)
+  if (headings.length === 0) return null
+
+  return (
+    <div className="blog-toc">
+      <div className="blog-toc-header">
+        <span className="blog-toc-title">NỘI DUNG CHÍNH</span>
+        <button className="blog-toc-toggle" onClick={() => setVisible(v => !v)}>
+          {visible ? 'Ẩn' : 'Hiện'}
+        </button>
+      </div>
+      {visible && (
+        <ol className="blog-toc-list">
+          {headings.map((h, i) => {
+            const raw = stripHeadingMarkers(h.markdown)
+            const text = stripInlineMarkdown(raw)
+            return (
+              <li key={i}>
+                <a href={`#heading-${slugify(text)}`}>{text}</a>
+              </li>
+            )
+          })}
+        </ol>
+      )}
+    </div>
+  )
+}
+
+function RelatedArticles({ related }) {
+  if (!related?.items?.length) return null
+  return (
+    <div className="blog-related">
+      <h3 className="blog-related-title">CÁC BÀI VIẾT LIÊN QUAN</h3>
+      <ul className="blog-related-list">
+        {related.items.map((item, i) => {
+          const slug = item.url.split('/').filter(Boolean).pop()
+          return (
+            <li key={i}>
+              <Link to={`/blogs/${slug}`}>{item.title}</Link>
+            </li>
+          )
+        })}
+      </ul>
+    </div>
+  )
+}
+
 const COLLECTION_LABELS = {
   healthy: 'Healthy',
   'huong-dan': 'Hướng dẫn',
@@ -111,8 +179,9 @@ function renderBlock(block, i) {
   if (block.type === 'heading') {
     const text = stripHeadingMarkers(block.markdown)
     const Tag = block.level === 3 ? 'h3' : 'h2'
+    const id = block.level === 2 ? slugify(stripInlineMarkdown(text)) : undefined
     return (
-      <Tag key={i} className={`blog-heading blog-h${block.level}`}>
+      <Tag key={i} id={id ? `heading-${id}` : undefined} className={`blog-heading blog-h${block.level}`}>
         {parseInline(text, `h${i}`)}
       </Tag>
     )
@@ -194,12 +263,14 @@ export default function BlogPostPage() {
               <span className="blog-post-date">{post.date}</span>
             </div>
           </header>
+          <TableOfContents blocks={post.blocks} />
           <div className="blog-post-body">
             {post.blocks.map((block, i) => renderBlock(block, i))}
           </div>
-          <div className="blog-post-footer">
+          <RelatedArticles related={post.related_articles} />
+          {/* <div className="blog-post-footer">
             <Link to="/blogs" className="blog-post-back">← Quay lại Blog</Link>
-          </div>
+          </div> */}
         </article>
       </div>
     </div>

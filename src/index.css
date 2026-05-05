@@ -16,6 +16,16 @@
     --bg: #ffffff;
 }
 
+html {
+    zoom: 1.25;
+}
+
+@media (max-width: 768px) {
+    html {
+        zoom: 1;
+    }
+}
+
 html,
 body {
     margin: 0;
@@ -124,11 +134,22 @@ textarea {
     margin: 0;
 }
 
+/* Sections with a "Xem thêm" button use flexbox to prevent overlap */
+.section-title.clearfix {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.section-title.clearfix h2 {
+    flex: 1;
+    margin-bottom: 0;
+    min-width: 0;
+}
+
 .section-title .view_more {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    flex-shrink: 0;
 }
 
 .section-title .view_more a {
@@ -138,19 +159,12 @@ textarea {
 
 @media (max-width: 768px) {
     .section-title.clearfix {
-        display: flex;
         flex-direction: column;
         align-items: flex-start;
-        text-align: left;
         gap: 4px;
     }
     .section-title.clearfix h2 {
         font-size: 16px;
-        padding-right: 0;
-    }
-    .section-title.clearfix .view_more {
-        position: static;
-        transform: none;
     }
 }
 
@@ -179,11 +193,17 @@ textarea {
 .product-img {
     position: relative;
     overflow: hidden;
+    aspect-ratio: 4 / 3;
+}
+
+.product-img > a {
+    display: block;
+    height: 100%;
 }
 
 .product-img > a > img {
     width: 100%;
-    height: 185px;
+    height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease-out;
 }

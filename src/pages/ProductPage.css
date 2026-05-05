@@ -18,15 +18,16 @@
 }
 
 .gallery-main-img {
-    flex: 3;
+    flex: 4;
     cursor: pointer;
     overflow: hidden;
     border-radius: 8px;
+    aspect-ratio: 1 / 1;
 }
 
 .gallery-main-img img {
     width: 100%;
-    height: 360px;
+    height: 100%;
     object-fit: cover;
     display: block;
     transition: transform 0.3s;
@@ -37,10 +38,10 @@
 }
 
 .gallery-side {
-    flex: 2;
+    flex: 1;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
     gap: 8px;
 }
 
@@ -261,7 +262,8 @@
 
 /* Card 1: Booking */
 .sidebar-restaurant-name {
-    font-size: 15px;
+    font-size: 22px;
+    text-align: center;
     font-weight: 700;
     color: var(--dark);
     margin-bottom: 8px;
@@ -270,6 +272,7 @@
 
 .sidebar-discount {
     color: var(--danger);
+    text-align: center;
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 12px;
@@ -296,13 +299,14 @@
 }
 
 .sidebar-phone-text {
-    font-size: 12px;
+    font-size: 15px;
     color: var(--text-secondary);
     text-align: center;
     line-height: 1.5;
 }
 
 .sidebar-phone-text strong {
+    font-size: 18px;
     color: var(--dark);
 }
 
@@ -385,6 +389,38 @@
     font-weight: 600;
 }
 
+/* ── Service amenity grid (pro-has-service) ── */
+.pro-has-service {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 8px;
+}
+
+.pro-has-service span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: #ccc;
+    line-height: 1.3;
+}
+
+.pro-has-service span svg {
+    width: 16px;
+    height: 16px;
+    fill: #ccc;
+    flex-shrink: 0;
+}
+
+.pro-has-service span.active {
+    color: var(--text-primary);
+}
+
+.pro-has-service span.active svg {
+    fill: var(--text-primary);
+}
+
 /* ── Lightbox ── */
 .lightbox-overlay {
     position: fixed;
@@ -461,8 +497,8 @@
         order: -1;
         width: 100%;
     }
-    .gallery-main-img img {
-        height: 260px;
+    .gallery-main-img {
+        aspect-ratio: 16 / 9;
     }
     .gallery-side {
         grid-template-rows: unset;
@@ -479,9 +515,10 @@
     .gallery-side {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: unset;
+        height: 80px;
     }
     .gallery-thumb-cell img {
         min-height: 60px;
-        height: 70px;
+        height: 80px;
     }
 }
